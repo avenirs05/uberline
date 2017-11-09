@@ -22,10 +22,13 @@ $(function () {
         var fixed_offset = 55;
         $('html,body').stop().animate({ scrollTop: $(this.hash).offset().top - fixed_offset}, 1,
             function(){
-                $('.collapse.show').collapse('hide');
+                $('.collapse').collapse('hide');
         });
         event.preventDefault();
     });
+
+    // Маска ввода номера телефона
+    $("#phone-field").mask("(380) 99-999-99-99");
 
 
 
