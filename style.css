@@ -1,0 +1,222 @@
+/*font-family: 'PT Sans', sans-serif;*/
+
+html{
+  overflow-y: scroll;
+  overflow-x: auto;
+}
+
+body{
+		padding-top: 54px;
+	}
+
+ul, li, span {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;	
+}
+
+.red {
+	color: #8B3330;
+}
+
+.header {
+	color: #fff;
+}
+
+.header .phone-digits {
+	font-size: 130%;
+	margin-right: 10px;
+	margin-left: 5px;
+}
+
+.header .whatsapp-icon,
+.header .viber-icon {
+	margin-right: 3px;
+}
+
+.header .phone-icon {
+	margin-top: 1px;
+}
+
+.header a {
+	color: #FFFF99;
+}
+
+.main-screen {
+	background-image: url("imgs/taxi-bg-50.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+.main-screen h1 {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 72px;
+	color: rgb(255, 193, 7);
+	font-weight: 600;
+	margin-top: 20px;
+}
+
+.main-screen h2 {
+	color: #fff;
+}
+
+#why-uber-section, 
+#req-drivers-section {
+	/*padding-top: 58px;*/
+}
+
+form {
+    border: 2px solid rgb(255, 255, 153);
+    padding: 15px;
+    border-radius: 7px;
+    color: rgb(255, 255, 255);
+    margin-top: 35px;
+}
+
+/*.navbar-toggler {
+	padding: 0;
+}*/
+
+@media screen and (max-device-width: 991px) {
+	.navbar {
+		padding-left: 0;
+	}
+	.navbar-dark .navbar-toggler {
+		border: none;
+	}
+	.header .phone-digits {
+	    font-size: 110%;
+	}
+	.p-4 {
+		padding-left: 0 !important;
+	}
+	.main-screen {
+		height: 50vh;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	
+}
+
+@media screen and (min-device-width: 320px) {
+	
+}
+
+@media screen and (min-device-width: 360px) {
+
+}
+
+@media screen and (min-device-width: 480px) {
+
+}
+
+@media screen and (min-device-width: 576px) {
+
+}
+
+@media screen and (min-device-width: 768px) {
+
+}
+
+@media screen and (min-device-width: 992px) {	
+	.header .list-inline-item:not(:last-child) {
+	    margin-right: 9px;
+	}
+	.header a {
+		font-size: 11px;
+	}
+	.navbar {
+	    padding: .5rem 0.3rem;
+	    padding-right: 0;
+	}
+
+}
+
+@media screen and (min-device-width: 1200px) {	
+	.header .list-inline-item:not(:last-child) {
+	    margin-right: 20px;
+	}
+	.header a {
+		font-size: 14px;
+	}
+}
+
+@media screen and (min-device-width: 1366px) {
+	.header .list-inline-item:not(:last-child) {
+	    margin-right: 25px;
+	}
+	.header a {
+		font-size: 16px;
+	}
+}
+
+@media screen and (min-device-width: 1600px) {
+
+}
+
+@media screen and (min-device-width: 1920px) {
+
+}
+
+
+.sticky-top{
+	    position: fixed !important;
+	    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
