@@ -63,11 +63,6 @@ a {
 	color: #fff;
 }
 
-#why-uber-section, 
-#req-drivers-section {
-	/*padding-top: 58px;*/
-}
-
 form {
     border: 2px solid rgb(255, 255, 153);
     padding: 15px;
@@ -104,9 +99,23 @@ button[type="submit"]:hover {
 	text-decoration: underline;
 }
 
-/*.navbar-toggler {
-	padding: 0;
-}*/
+.logo-mob {
+	margin-top: 15px;
+}
+
+.form-wrapper-mob {
+	background-color: #f3f3f3;
+}
+
+.form-wrapper-mob form {
+	background-color: #CCCCCC;
+	color: #000;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	border: none;
+}
+
+
 
 @media screen and (max-device-width: 991px) {
 	.navbar {
@@ -121,13 +130,27 @@ button[type="submit"]:hover {
 	.p-4 {
 		padding-left: 0 !important;
 	}
-	.main-screen {
+	.main-screen-mob {
+		background-image: url("imgs/taxi-bg.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
 		height: 50vh;
 	}
-}
 
-@media screen and (max-width: 991px) {
-	
+	.main-screen-mob h1 {
+		font-family: 'PT Sans', sans-serif;
+		font-size: 24px;
+		color: rgb(255, 193, 7);
+		font-weight: 600;
+		margin-top: 15px;
+	}
+
+	.main-screen-mob h2 {
+		font-size: 18px;
+		color: #fff;
+	}	
+
+
 }
 
 @media screen and (min-device-width: 320px) {

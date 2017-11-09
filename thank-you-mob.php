@@ -39,17 +39,17 @@
 $headers = 'MIME-Version: 1.0' . "\r\n";
 $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
 $to = 'domosed365365@gmail.com';
-$subject = "Заявка с сайта uberline.in.ua (desktop)";
+$subject = "Заявка с сайта uberline.in.ua (mobile)";
 
 
 $message = '<html><head><title></title></head><body>
                     <strong>Тема: заявка с сайта uberline.in.ua</strong><br><br><br>' .
-                    '<b>Имя:</b> ' . $_POST['name'] . '<br><br>' .
-                    '<b>Телефон:</b> ' . $_POST['phone'] . '<br><br>' .  
-                    '<b>Email:</b> ' . $_POST['email'] . '<br><br>' .
-                    '<b>Марка и модель авто:</b> ' . $_POST['brand-and-model'] . '<br><br>' .
-                    '<b>Год выпуска авто:</b> ' . $_POST['year'] . '<br><br>' .
-                    '<b>Согласие:</b> ' . $_POST['agree'] . '</body></html>';
+                    '<b>Имя:</b> ' . $_POST['name-mob'] . '<br><br>' .
+                    '<b>Телефон:</b> ' . $_POST['phone-mob'] . '<br><br>' .  
+                    '<b>Email:</b> ' . $_POST['email-mob'] . '<br><br>' .
+                    '<b>Марка и модель авто:</b> ' . $_POST['brand-and-model-mob'] . '<br><br>' .
+                    '<b>Год выпуска авто:</b> ' . $_POST['year-mob'] . '<br><br>' .
+                    '<b>Согласие:</b> ' . $_POST['agree-mob'] . '</body></html>';
 
 mail($to, $subject, $message, $headers);
 exit();

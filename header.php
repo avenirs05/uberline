@@ -12,11 +12,12 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
-    <link rel="shortcut icon" href="/imgs/fav.png" type="image/png">
+    <link rel="shortcut icon" href="/imgs/fav.png" type="image/png">   
     <link href="style.css" rel="stylesheet">
   </head>
 
   <body>	
+    <!-- Navbar for desktop -->
 		<div class="container-fluid sticky-top header d-none d-lg-block">
 			<nav class="row navbar navbar-light bg-dark">
 				  <div class="col-auto d-flex align-items-center">
@@ -46,11 +47,11 @@
       <div class="collapse" id="navbarToggleExternalContent">
         <div class="bg-dark p-4">
         	<ul class="col list-unstyled">
-        		<li class=""><a href="#why-uber-section" id="why-uber-link-mob">Почему UBER</a></li><br>
-        		<li class=""><a href="#req-drivers-section" id="req-drivers-link-mob">Требования к водителям</a></li><br>
-        		<li class=""><a href="#req-auto-section" id="req-auto-link-mob">Tребования к авто</a></li><br>
-        		<li class=""><a href="#our-commission-section" id="our-commission-link-mob">Наша комиссия</a></li><br>
-        		<li class=""><a href="#change-partner-section" id="change-partner-link-mob">Сменить партнера</a></li>		
+        		<li><a href="#why-uber-section" id="why-uber-link-mob">Почему UBER</a></li><br>
+        		<li><a href="#req-drivers-section" id="req-drivers-link-mob">Требования к водителям</a></li><br>
+        		<li><a href="#req-auto-section" id="req-auto-link-mob">Tребования к авто</a></li><br>
+        		<li><a href="#our-commission-section" id="our-commission-link-mob">Наша комиссия</a></li><br>
+        		<li><a href="#change-partner-section" id="change-partner-link-mob">Сменить партнера</a></li>	
         	</ul>
         </div>
       </div>
