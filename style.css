@@ -26,7 +26,7 @@ a {
 }
 
 .header .phone-digits {
-	font-size: 130%;
+	font-size: 22px;
 	margin-right: 10px;
 	margin-left: 5px;
 }
@@ -37,7 +37,7 @@ a {
 }
 
 .header .phone-icon {
-	margin-top: 1px;
+	margin-top: 2px;
 }
 
 .header a {
@@ -49,6 +49,14 @@ a {
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100vh;
+}
+
+.main-screen #for-30-min {
+	color: rgb(255, 193, 7);
+	font-size: 72px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 600;
+	margin-top: -15px;
 }
 
 .main-screen h1 {
@@ -99,6 +107,11 @@ button[type="submit"]:hover {
 	text-decoration: underline;
 }
 
+.form-check a:hover {
+	color: #FFFF99;
+}
+
+
 .logo-mob {
 	margin-top: 15px;
 }
@@ -115,6 +128,42 @@ button[type="submit"]:hover {
 	border: none;
 }
 
+.anchor-page {
+	padding-top: 20px;
+	padding-bottom: 25px;
+}
+
+#why-uber-section {
+	background-color: #FFFFCC;	
+}
+
+#why-uber-section ul,
+#req-drivers-section ul {
+	margin-left: 25px;
+	font-size: 22px;
+}
+
+#why-uber-section h2,
+#req-drivers-section h2 {
+	margin-bottom: 20px;
+}
+
+#req-drivers-section {
+	background-color: #f3f3f3;	
+}
+
+#discount-section h2 {
+	margin-bottom: 30px;
+}
+
+#discount-section figcaption {
+	color: #000;
+	font-size: 16px;
+}
+
+.first-row-discount {
+	margin-bottom: 30px;
+}
 
 
 @media screen and (max-device-width: 991px) {
@@ -145,24 +194,59 @@ button[type="submit"]:hover {
 		margin-top: 15px;
 	}
 
+	.main-screen-mob #for-30-min-mob {
+		color: rgb(255, 193, 7);
+		font-size: 72px;
+		font-family: 'PT Sans', sans-serif;
+		font-weight: 600;
+	}
+
 	.main-screen-mob h2 {
 		font-size: 18px;
 		color: #fff;
 	}	
-
-
+	.first-row-discount {
+		margin-bottom: 0;
+	}
+	#discount-section .figure {
+		margin-bottom: 30px;		
+	}
+	#discount-section .last-figure {
+		margin-bottom: 0;
+	}
+	#req-drivers-section .for-connection {
+		margin-top: 30px;
+	}
+	#req-drivers-section .list-unstyled {
+		margin-left: 0;
+	}
 }
 
 @media screen and (min-device-width: 320px) {
-	
+
 }
 
 @media screen and (min-device-width: 360px) {
+	.main-screen-mob h1 {
+		font-size: 26px;
+		margin-top: 30px;
+	}
+	.main-screen-mob #for-30-min-mob {
+		font-size: 26px;
+		margin-top: -7px;
+	}
 
 }
 
 @media screen and (min-device-width: 480px) {
-
+	.main-screen-mob h1 {
+		font-size: 28px;
+		margin-top: 50px;
+	}
+	.main-screen-mob #for-30-min-mob {
+		font-size: 28px;
+		margin-top: -7px;
+	}
 }
 
 @media screen and (min-device-width: 576px) {
@@ -170,7 +254,14 @@ button[type="submit"]:hover {
 }
 
 @media screen and (min-device-width: 768px) {
-
+	.main-screen-mob h1 {
+		font-size: 32px;
+		margin-top: 50px;
+	}
+	.main-screen-mob #for-30-min-mob {
+		font-size: 32px;
+		margin-top: -7px;
+	}
 }
 
 @media screen and (min-device-width: 992px) {	
@@ -181,8 +272,14 @@ button[type="submit"]:hover {
 		font-size: 11px;
 	}
 	.navbar {
-	    padding: .5rem 0.3rem;
-	    padding-right: 0;
+    padding: .5rem 0.3rem;
+    padding-right: 0;
+	}
+	.main-screen .headers {
+		padding-left: 40px;
+	}
+	.main-screen .headers h1 {
+		font-size: 62px;
 	}
 
 }

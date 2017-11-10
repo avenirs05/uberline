@@ -17,30 +17,29 @@
   </head>
 
   <body>	
-    <!-- Navbar for desktop -->
-		<div class="container-fluid sticky-top header d-none d-lg-block">
-			<nav class="row navbar navbar-light bg-dark">
-				  <div class="col-auto d-flex align-items-center">
-				    <a href=""><img src="imgs/logo.png" height="40" alt=""></a>
-				  </div>
-				  <ul class="col d-flex align-items-center list-unstyled list-inline">
-				  	<li class="list-inline-item"><a href="#why-uber-section" id="why-uber-link">Почему UBER</a></li>
-				  	<li class="list-inline-item"><a href="#req-drivers-section" id="req-drivers-link">Требования к водителям</a></li>
-				  	<li class="list-inline-item"><a href="#req-auto-section" id="req-auto-link">Tребования к авто</a></li>
-				  	<li class="list-inline-item"><a href="#our-commission-section" id="our-commission-link">Наша комиссия</a></li>
-				  	<li class="list-inline-item"><a href="#change-partner-section" id="change-partner-link">Сменить партнера</a></li>	
-				  </ul>
-				  <div class="col-auto d-flex align-items-center justify-content-end contacts">				  	
-				  	<img class="phone-icon" src="imgs/phone.svg" width="17" height="17" alt="">
-						<div>
-							<span class="phone-digits">+38 099 000 70 00</span>
-						</div>
-						<img class="whatsapp-icon" src="imgs/whatsapp.svg" width="18" height="18" alt="">
-						<img class="viber-icon" src="imgs/viber.png" width="16" height="18" alt="">
-						<img src="imgs/telegram.png" width="18" height="18" alt="">						
-				  </div>
-			</nav>
-		</div>
+    <div class="container-fluid sticky-top header d-none d-lg-block">
+      <nav class="row navbar navbar-light bg-dark">
+          <div class="col-auto d-flex align-items-center">
+            <a href=""><img src="imgs/logo.png" height="40" alt=""></a>
+          </div>
+          <ul class="col d-flex align-items-center list-unstyled list-inline">
+            <li class="list-inline-item"><a href="#why-uber-section" id="why-uber-link">Почему UBER</a></li>
+            <li class="list-inline-item"><a href="#req-drivers-section" id="req-drivers-link">Требования к водителям</a></li>
+            <li class="list-inline-item"><a href="#req-auto-section" id="req-auto-link">Tребования к авто</a></li>
+            <li class="list-inline-item"><a href="#our-commission-section" id="our-commission-link">Наша комиссия</a></li>
+            <li class="list-inline-item"><a href="#change-partner-section" id="change-partner-link">Сменить партнера</a></li> 
+          </ul>
+          <div class="col-auto d-flex align-items-center justify-content-end contacts">           
+            <img class="phone-icon" src="imgs/phone.svg" width="17" height="17" alt="">
+            <div>
+              <span class="phone-digits">+38 099 000 70 00</span>
+            </div>
+            <img class="whatsapp-icon" src="imgs/whatsapp.svg" width="18" height="18" alt="">
+            <img class="viber-icon" src="imgs/viber.png" width="16" height="18" alt="">
+            <img src="imgs/telegram.png" width="18" height="18" alt="">           
+          </div>
+      </nav>
+    </div>
 
   	<!-- Navbar for mobile -->
     <div id="header-mob" class="pos-f-t sticky-top header d-lg-none">

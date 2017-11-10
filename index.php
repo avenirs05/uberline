@@ -3,8 +3,9 @@
 <!-- Main-screen for desktop -->
 <div class="container-fluid d-none d-lg-block main-screen">
 	<div class="row">
-		<div class="col-8">
-			<h1>Подключение к UBER за 30 минут</h1>
+		<div class="col-8 headers">
+			<h1>Подключение к UBER</h1>
+			<p id="for-30-min">за 30 минут</p>
 			<h2>Официальный партнер UBER в Киеве</h2>
 			<h2>Честная комиссия – от 2%</h2>
 		</div>
@@ -32,8 +33,8 @@
 			  </div>
 			  <div class="form-check">
 			    <label class="form-check-label">
-			      <input type="checkbox" class="form-check-input" name="agree" checked>
-			      с условиями <a href="#" target="_blank">агентского договора</a> ознакомлен и согласен
+			      <input type="checkbox" class="form-check-input" name="agree" checked disabled>
+			      с условиями <a href="agreement.doc" target="_blank">агентского договора</a> ознакомлен и согласен
 			    </label>
 			  </div>
 			  <button type="submit" class="btn btn-primary">Стать водителем</button>
@@ -42,14 +43,16 @@
 	</div>		    
 </div>
 
+
 <!-- Main-screen for mobile -->
 <div class="container-fluid d-lg-none main-screen-mob">
 	<div class="row">
 		<div class="col">
 			<a href="/"><img class="logo-mob" src="imgs/logo.png" height="40" alt=""></a>
-			<h1>Подключение к UBER за 30 минут</h1>
-			<h2>Официальный партнер UBER в Киеве</h2>
-			<h2>Честная комиссия – от 2%</h2>
+			<h1 class="text-center">Подключение к UBER</h1>
+			<p class="text-center" id="for-30-min-mob">за 30 минут</p>
+			<h2 class="text-center">Официальный партнер UBER в Киеве</h2>
+			<h2 class="text-center">Честная комиссия – от 2%</h2>
 		</div>
 	</div>		    
 </div>
@@ -91,118 +94,104 @@
 	</div>		    
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div>
-	<div id="why-uber-section" class="anchor-page"></div>
-		<h1>Почему убер</h1>
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam voluptas quia vitae ea, veritatis totam numquam enim alias tempore architecto aperiam eaque unde laborum explicabo. Aliquid inventore iure quam necessitatibus.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex rem tempora deleniti debitis accusantium explicabo doloremque, quibusdam numquam commodi adipisci? Quis, veniam dolorem officiis blanditiis dicta iusto possimus quasi dolorum.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id assumenda exercitationem, quis laboriosam maiores cum eius, consectetur adipisci ipsam perferendis recusandae labore minima minus eveniet, tenetur explicabo deleniti nam optio!
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, quibusdam numquam aliquam. Quod temporibus pariatur quam, accusamus quia dicta quis, eos velit perspiciatis praesentium. Nemo fugiat nisi distinctio incidunt tempore?
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam voluptas quia vitae ea, veritatis totam numquam enim alias tempore architecto aperiam eaque unde laborum explicabo. Aliquid inventore iure quam necessitatibus.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex rem tempora deleniti debitis accusantium explicabo doloremque, quibusdam numquam commodi adipisci? Quis, veniam dolorem officiis blanditiis dicta iusto possimus quasi dolorum.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id assumenda exercitationem, quis laboriosam maiores cum eius, consectetur adipisci ipsam perferendis recusandae labore minima minus eveniet, tenetur explicabo deleniti nam optio!
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, quibusdam numquam aliquam. Quod temporibus pariatur quam, accusamus quia dicta quis, eos velit perspiciatis praesentium. Nemo fugiat nisi distinctio incidunt tempore?		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam voluptas quia vitae ea, veritatis totam numquam enim alias tempore architecto aperiam eaque unde laborum explicabo. Aliquid inventore iure quam necessitatibus.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex rem tempora deleniti debitis accusantium explicabo doloremque, quibusdam numquam commodi adipisci? Quis, veniam dolorem officiis blanditiis dicta iusto possimus quasi dolorum.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id assumenda exercitationem, quis laboriosam maiores cum eius, consectetur adipisci ipsam perferendis recusandae labore minima minus eveniet, tenetur explicabo deleniti nam optio!
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, quibusdam numquam aliquam. Quod temporibus pariatur quam, accusamus quia dicta quis, eos velit perspiciatis praesentium. Nemo fugiat nisi distinctio incidunt tempore?
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam voluptas quia vitae ea, veritatis totam numquam enim alias tempore architecto aperiam eaque unde laborum explicabo. Aliquid inventore iure quam necessitatibus.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex rem tempora deleniti debitis accusantium explicabo doloremque, quibusdam numquam commodi adipisci? Quis, veniam dolorem officiis blanditiis dicta iusto possimus quasi dolorum.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id assumenda exercitationem, quis laboriosam maiores cum eius, consectetur adipisci ipsam perferendis recusandae labore minima minus eveniet, tenetur explicabo deleniti nam optio!
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, quibusdam numquam aliquam. Quod temporibus pariatur quam, accusamus quia dicta quis, eos velit perspiciatis praesentium. Nemo fugiat nisi distinctio incidunt tempore?
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam voluptas quia vitae ea, veritatis totam numquam enim alias tempore architecto aperiam eaque unde laborum explicabo. Aliquid inventore iure quam necessitatibus.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex rem tempora deleniti debitis accusantium explicabo doloremque, quibusdam numquam commodi adipisci? Quis, veniam dolorem officiis blanditiis dicta iusto possimus quasi dolorum.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id assumenda exercitationem, quis laboriosam maiores cum eius, consectetur adipisci ipsam perferendis recusandae labore minima minus eveniet, tenetur explicabo deleniti nam optio!
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, quibusdam numquam aliquam. Quod temporibus pariatur quam, accusamus quia dicta quis, eos velit perspiciatis praesentium. Nemo fugiat nisi distinctio incidunt tempore?
+<div id="why-uber-section" class="container-fluid anchor-page">
+	<div class="row">
+		<div class="col col-lg-9 ml-auto mr-auto">
+			<h2 class="text-center">Почему все больше водителей приходят работать в UBER?</h2>
+			<ul>
+				<li>Вы <b>сами</b> определяете, когда, сколько и где вы будете выполнять заказы.</li>
+				<li>У вас всегда есть <b>заказы</b>. Минимальное время простоя. Минимальный холостой пробег.</li>
+				<li>Повышающие <b>коэффициенты</b> и бонусы за работу в загруженных районах.</li>
+				<li><b>Ежедневная</b> или еженедельная оплата по вашему выбору</li>
+				<li><b>Скидки</b> на топливо, запчасти, автосервис, страхование, повседневные товары.</li>
+				<li><b>Безопасность:</b> все ваши пассажиры идентифицированы и имеют рейтинг.</li>
+				<li>Техподдержка официального партнера – мы поможем в любых внештатных ситуациях.</li>
+			</ul>
+		</div>
+	</div>		    
 </div>
-	<div>
-		<div id="req-drivers-section" class="anchor-page"></div>
-		<h1>Требования к водителям</h1>
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam voluptas quia vitae ea, veritatis totam numquam enim alias tempore architecto aperiam eaque unde laborum explicabo. Aliquid inventore iure quam necessitatibus.
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex rem tempora deleniti debitis accusantium explicabo doloremque, quibusdam numquam commodi adipisci? Quis, veniam dolorem officiis blanditiis dicta iusto possimus quasi dolorum.
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id assumenda exercitationem, quis laboriosam maiores cum eius, consectetur adipisci ipsam perferendis recusandae labore minima minus eveniet, tenetur explicabo deleniti nam optio!
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, quibusdam numquam aliquam. Quod temporibus pariatur quam, accusamus quia dicta quis, eos velit perspiciatis praesentium. Nemo fugiat nisi distinctio incidunt tempore?
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam voluptas quia vitae ea, veritatis totam numquam enim alias tempore architecto aperiam eaque unde laborum explicabo. Aliquid inventore iure quam necessitatibus.
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex rem tempora deleniti debitis accusantium explicabo doloremque, quibusdam numquam commodi adipisci? Quis, veniam dolorem officiis blanditiis dicta iusto possimus quasi dolorum.
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id assumenda exercitationem, quis laboriosam maiores cum eius, consectetur adipisci ipsam perferendis recusandae labore minima minus eveniet, tenetur explicabo deleniti nam optio!
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, quibusdam numquam aliquam. Quod temporibus pariatur quam, accusamus quia dicta quis, eos velit perspiciatis praesentium. Nemo fugiat nisi distinctio incidunt tempore?		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam voluptas quia vitae ea, veritatis totam numquam enim alias tempore architecto aperiam eaque unde laborum explicabo. Aliquid inventore iure quam necessitatibus.
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex rem tempora deleniti debitis accusantium explicabo doloremque, quibusdam numquam commodi adipisci? Quis, veniam dolorem officiis blanditiis dicta iusto possimus quasi dolorum.
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id assumenda exercitationem, quis laboriosam maiores cum eius, consectetur adipisci ipsam perferendis recusandae labore minima minus eveniet, tenetur explicabo deleniti nam optio!
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, quibusdam numquam aliquam. Quod temporibus pariatur quam, accusamus quia dicta quis, eos velit perspiciatis praesentium. Nemo fugiat nisi distinctio incidunt tempore?
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam voluptas quia vitae ea, veritatis totam numquam enim alias tempore architecto aperiam eaque unde laborum explicabo. Aliquid inventore iure quam necessitatibus.
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex rem tempora deleniti debitis accusantium explicabo doloremque, quibusdam numquam commodi adipisci? Quis, veniam dolorem officiis blanditiis dicta iusto possimus quasi dolorum.
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id assumenda exercitationem, quis laboriosam maiores cum eius, consectetur adipisci ipsam perferendis recusandae labore minima minus eveniet, tenetur explicabo deleniti nam optio!
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, quibusdam numquam aliquam. Quod temporibus pariatur quam, accusamus quia dicta quis, eos velit perspiciatis praesentium. Nemo fugiat nisi distinctio incidunt tempore?
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam voluptas quia vitae ea, veritatis totam numquam enim alias tempore architecto aperiam eaque unde laborum explicabo. Aliquid inventore iure quam necessitatibus.
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex rem tempora deleniti debitis accusantium explicabo doloremque, quibusdam numquam commodi adipisci? Quis, veniam dolorem officiis blanditiis dicta iusto possimus quasi dolorum.
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id assumenda exercitationem, quis laboriosam maiores cum eius, consectetur adipisci ipsam perferendis recusandae labore minima minus eveniet, tenetur explicabo deleniti nam optio!
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, quibusdam numquam aliquam. Quod temporibus pariatur quam, accusamus quia dicta quis, eos velit perspiciatis praesentium. Nemo fugiat nisi distinctio incidunt tempore?
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam voluptas quia vitae ea, veritatis totam numquam enim alias tempore architecto aperiam eaque unde laborum explicabo. Aliquid inventore iure quam necessitatibus.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex rem tempora deleniti debitis accusantium explicabo doloremque, quibusdam numquam commodi adipisci? Quis, veniam dolorem officiis blanditiis dicta iusto possimus quasi dolorum.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id assumenda exercitationem, quis laboriosam maiores cum eius, consectetur adipisci ipsam perferendis recusandae labore minima minus eveniet, tenetur explicabo deleniti nam optio!
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, quibusdam numquam aliquam. Quod temporibus pariatur quam, accusamus quia dicta quis, eos velit perspiciatis praesentium. Nemo fugiat nisi distinctio incidunt tempore?
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam voluptas quia vitae ea, veritatis totam numquam enim alias tempore architecto aperiam eaque unde laborum explicabo. Aliquid inventore iure quam necessitatibus.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex rem tempora deleniti debitis accusantium explicabo doloremque, quibusdam numquam commodi adipisci? Quis, veniam dolorem officiis blanditiis dicta iusto possimus quasi dolorum.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id assumenda exercitationem, quis laboriosam maiores cum eius, consectetur adipisci ipsam perferendis recusandae labore minima minus eveniet, tenetur explicabo deleniti nam optio!
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, quibusdam numquam aliquam. Quod temporibus pariatur quam, accusamus quia dicta quis, eos velit perspiciatis praesentium. Nemo fugiat nisi distinctio incidunt tempore?		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam voluptas quia vitae ea, veritatis totam numquam enim alias tempore architecto aperiam eaque unde laborum explicabo. Aliquid inventore iure quam necessitatibus.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex rem tempora deleniti debitis accusantium explicabo doloremque, quibusdam numquam commodi adipisci? Quis, veniam dolorem officiis blanditiis dicta iusto possimus quasi dolorum.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id assumenda exercitationem, quis laboriosam maiores cum eius, consectetur adipisci ipsam perferendis recusandae labore minima minus eveniet, tenetur explicabo deleniti nam optio!
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, quibusdam numquam aliquam. Quod temporibus pariatur quam, accusamus quia dicta quis, eos velit perspiciatis praesentium. Nemo fugiat nisi distinctio incidunt tempore?
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam voluptas quia vitae ea, veritatis totam numquam enim alias tempore architecto aperiam eaque unde laborum explicabo. Aliquid inventore iure quam necessitatibus.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex rem tempora deleniti debitis accusantium explicabo doloremque, quibusdam numquam commodi adipisci? Quis, veniam dolorem officiis blanditiis dicta iusto possimus quasi dolorum.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id assumenda exercitationem, quis laboriosam maiores cum eius, consectetur adipisci ipsam perferendis recusandae labore minima minus eveniet, tenetur explicabo deleniti nam optio!
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, quibusdam numquam aliquam. Quod temporibus pariatur quam, accusamus quia dicta quis, eos velit perspiciatis praesentium. Nemo fugiat nisi distinctio incidunt tempore?
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam voluptas quia vitae ea, veritatis totam numquam enim alias tempore architecto aperiam eaque unde laborum explicabo. Aliquid inventore iure quam necessitatibus.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex rem tempora deleniti debitis accusantium explicabo doloremque, quibusdam numquam commodi adipisci? Quis, veniam dolorem officiis blanditiis dicta iusto possimus quasi dolorum.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id assumenda exercitationem, quis laboriosam maiores cum eius, consectetur adipisci ipsam perferendis recusandae labore minima minus eveniet, tenetur explicabo deleniti nam optio!
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, quibusdam numquam aliquam. Quod temporibus pariatur quam, accusamus quia dicta quis, eos velit perspiciatis praesentium. Nemo fugiat nisi distinctio incidunt tempore?</div>
-<div>
+
+<div id="discount-section" class="container-fluid anchor-page">
+	<div class="row">
+		<div class="col">
+			<h2 class="text-center">Скидки для всех водителей UBER!</h2>
+		</div>
+	</div>	
+	<div class="row first-row-discount">
+		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
+			<figure class="figure">
+			  <img height="42" src="imgs/discount-window.png" class="figure-img rounded" alt="">
+			  <figcaption class="figure-caption"><b>Топливо и газ</b><br>Скидка 3-4 грн/л на бензин или ДТ и 1-2 грн/л на газ в сети АЗК «ОККО», а также бесплатный кофе.
+			  </figcaption>
+			</figure>
+		</div>
+		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
+			<figure class="figure">
+			  <img height="42" src="imgs/discount-elit.png" class="figure-img rounded" alt="">
+			  <figcaption class="figure-caption"><b>Автозапчасти</b><br>Скидка 27% на покупку автозапчастей в интернет- магазине Elit.
+			  </figcaption>
+			</figure>
+		</div>
+		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
+			<figure class="figure">
+			  <img height="42" src="imgs/discount-autoservices.png" class="figure-img rounded" alt="">
+			  <figcaption class="figure-caption"><b>Автосервисы</b><br>Скидка от 10 до 50% на услуги СТО, шиномонтажа и автомойки, которые можно заказать на сайте Carbook.
+			  </figcaption>
+			</figure>
+		</div>
+	</div>	
+	<div class="row">
+		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
+			<figure class="figure">
+			  <img height="42" src="imgs/discount-tires.png" class="figure-img rounded" alt="">
+			  <figcaption class="figure-caption"><b>Шины</b><br>Скидка от 5 до 15% на шины, диски и аккумуляторы в определенных магазинах «ШипШина».
+			  </figcaption>
+			</figure>
+		</div>
+		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
+			<figure class="figure">
+			  <img height="42" src="imgs/discount-insurance.png" class="figure-img rounded" alt="">
+			  <figcaption class="figure-caption"><b>Страхование</b><br>Скидки до 20% на определенные услуги страхования в СК «Универсальная».
+			  </figcaption>
+			</figure>
+		</div>
+		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
+			<figure class="figure last-figure">
+			  <img height="42" src="imgs/discount-expences.png" class="figure-img rounded" alt="">
+			  <figcaption class="figure-caption"><b>Ежедневные расходы</b><br>Дополнительные баллы за покупку товаров в супермаркетах «Фуршет» и мобильных аксессуаров в сети «АЛЛО».
+			  </figcaption>
+			</figure>
+		</div>
+	</div>    
+</div>
+
+<div id="req-drivers-section" class="container-fluid anchor-page">
+	<div class="row">
+		<div class="col col-lg-5 offset-lg-1">
+			<h2 class="text-center">Требования к водителям</h2>
+			<ul>
+				<li>Водительское удостоверение категории «B»</li>
+				<li>Стаж вождения от 1 года</li>
+				<li>Возраст от 19 лет</li>
+				<li>Гражданство Украины или вид на жительство</li>
+				<li>Личный или арендованный <a href="#" target="_blank">автомобиль</a></li>
+				<li>Наличие смартфона с 3G-интернетом</li>
+				<li>Банковская карта (любая)</li>
+				<li>Желание зарабатывать (ОБЯЗАТЕЛЬНО!)</li>
+			</ul>
+		</div>
+		<div class="col col-lg-5">
+			<h2 class="text-center for-connection">Для подключения необходимо всего 3 документа:</h2>
+			<ul class="list-unstyled">
+				<li>1. Водительское удостоверение категории «B»</li>
+				<li>2. Свидетельство о регистрации транспортного средства</li>
+				<li>3. Полис ОСАГО</li>
+			</ul>
+		</div>
+	</div>		    
+</div>
+
+
 	<div id="req-auto-section" class="anchor-page"></div>
 
 		<h1>Требования к авто</h1>
