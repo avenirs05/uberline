@@ -167,11 +167,17 @@ button[type="submit"]:hover {
 	background-color: #f3f3f3;	
 }
 
-#discount-section h2 {
+#req-auto-section {
+	background-color: #FFFFCC;
+}
+
+#discount-section h2,
+#req-auto-section h2 {
 	margin-bottom: 30px;
 }
 
-#discount-section figcaption {
+#discount-section figcaption,
+#req-auto-section figcaption {
 	color: #000;
 	font-size: 16px;
 }
@@ -230,10 +236,12 @@ button[type="submit"]:hover {
 	.first-row-discount {
 		margin-bottom: 0;
 	}
-	#discount-section .figure {
+	#discount-section .figure,
+	#req-auto-section .figure {
 		margin-bottom: 30px;		
 	}
-	#discount-section .last-figure {
+	#discount-section .last-figure,
+	#req-auto-section .last-figure {
 		margin-bottom: 0;
 	}
 	#req-drivers-section .for-connection {

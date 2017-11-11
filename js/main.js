@@ -29,11 +29,16 @@ $(function () {
 
     // Маска ввода номера телефона
     $("#phone-field").mask("(+380) 99-999-99-99");
+    $("#phone-field-modal").mask("(+380) 99-999-99-99");
     $("#phone-field-mob").mask("(+380) 99 999 99 99", {placeholder: " " });
+    $("#phone-field-modal-mob").mask("(+380) 99 999 99 99", {placeholder: " " });
 
     // Модальное окно bootstrap
     $('#btn-fit').click(function() { 
         $('#modal-fit').modal('show'); 
+    });
+    $('#btn-fit-mob').click(function() { 
+        $('#modal-fit-mob').modal('show'); 
     });
 
 
