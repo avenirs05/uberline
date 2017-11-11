@@ -31,5 +31,10 @@ $(function () {
     $("#phone-field").mask("(+380) 99-999-99-99");
     $("#phone-field-mob").mask("(+380) 99 999 99 99", {placeholder: " " });
 
+    // Модальное окно bootstrap
+    $('#btn-fit').click(function() { 
+        $('#modal-fit').modal('show'); 
+    });
+
 
 });

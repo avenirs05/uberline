@@ -31,10 +31,11 @@
 			    <label for="year-field">Год выпуска авто</label>
 			    <input id="year-field" type="text" class="form-control" placeholder="Введите год выпуска" name="year">
 			  </div>
+			  <!-- На десктопах будет ссылка на скачивание договора -->
 			  <div class="form-check">
 			    <label class="form-check-label">
 			      <input type="checkbox" class="form-check-input" name="agree" checked disabled>
-			      с условиями <a href="agreement.doc" target="_blank">агентского договора</a> ознакомлен и согласен
+			      с условиями <a href="agreement.docx" target="_blank">агентского договора</a> ознакомлен и согласен
 			    </label>
 			  </div>
 			  <button type="submit" class="btn btn-primary">Стать водителем</button>
@@ -84,8 +85,8 @@
 			  </div>
 			  <div class="form-check">
 			    <label class="form-check-label">
-			      <input type="checkbox" class="form-check-input" name="agree-mob" checked>
-			      с условиями <a href="#">агентского договора</a> ознакомлен и согласен
+			      <input type="checkbox" class="form-check-input" name="agree-mob" checked disabled>
+			      с условиями <a href="agreement.php" target="_blank">агентского договора</a> ознакомлен и согласен
 			    </label>
 			  </div>
 			  <button type="submit" class="btn btn-primary">Стать водителем</button>
@@ -174,7 +175,7 @@
 				<li>Стаж вождения от 1 года</li>
 				<li>Возраст от 19 лет</li>
 				<li>Гражданство Украины или вид на жительство</li>
-				<li>Личный или арендованный <a href="#" target="_blank">автомобиль</a></li>
+				<li>Личный или арендованный <a href="https://docs.google.com/spreadsheets/d/1XDzUIVBZxCrNIKkjFOc0eiKHNRLmPDaVJKzKcb1lu0E/edit#gid=407632270" target="_blank">автомобиль</a></li>
 				<li>Наличие смартфона с 3G-интернетом</li>
 				<li>Банковская карта (любая)</li>
 				<li>Желание зарабатывать (ОБЯЗАТЕЛЬНО!)</li>
@@ -188,7 +189,17 @@
 				<li>3. Полис ОСАГО</li>
 			</ul>
 		</div>
-	</div>		    
+	</div>		 
+	<div class="row text-center">
+		<div class="col">
+			<p class="text-center fit"><b>Подходите по условиям?</b></p>
+		</div>	
+	</div>   
+	<div class="row text-center">
+		<div class="col col-lg-3 ml-auto mr-auto">
+			<button id="btn-fit" type="submit" class="btn btn-primary">Оставить заявку</button>
+		</div>	
+	</div>
 </div>
 
 
