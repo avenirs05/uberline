@@ -213,6 +213,30 @@ button[type="submit"]:hover {
 	padding-top: 10px;
 }
 
+#our-commission-section {
+	font-size: 22px;
+}
+
+#our-commission-section h2 {
+	margin-bottom: 25px;
+}
+
+#our-commission-section .wrapper {
+	border: 2px solid #339933;
+	border-radius: 10px;
+	padding-left: 22px;
+	padding-right: 22px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+}
+
+#our-commission-section .action {
+	color: #E7382B;
+}
+
+#change-partner-section {
+	background-color: #F3F3F3;
+}
 
 @media screen and (max-device-width: 991px) {
 	.navbar {
@@ -267,6 +291,23 @@ button[type="submit"]:hover {
 	}
 	#req-drivers-section .list-unstyled {
 		margin-left: 0;
+	}
+	#req-auto-section .list-auto-text-wrap {
+		border: none;
+	}
+	#req-auto-section p {
+		text-align: left;
+	}
+	#our-commission-section .wrapper {
+		border: none;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	#our-commission-section {
+		padding-bottom: 0;
+	}
+	#our-commission-section h2 {
+	  margin-bottom: 5px;
 	}
 }
 

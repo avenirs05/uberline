@@ -155,22 +155,8 @@
 			  </figcaption>
 			</figure>
 		</div>
-	</div>	
-
-
-
-<!-- 			<ul>
-				<li>Вы <b>сами</b> определяете, когда, сколько и где вы будете выполнять заказы.</li>
-				<li>У вас всегда есть <b>заказы</b>. Минимальное время простоя. Минимальный холостой пробег.</li>
-				<li>Повышающие <b>коэффициенты</b> и бонусы за работу в загруженных районах.</li>
-				<li><b>Ежедневная</b> или еженедельная оплата по вашему выбору</li>
-				<li><b>Скидки</b> на топливо, запчасти, автосервис, страхование, повседневные товары.</li>
-				<li><b>Безопасность:</b> все ваши пассажиры идентифицированы и имеют рейтинг.</li>
-				<li><b>Техподдержка</b> официального партнера – мы поможем в любых внештатных ситуациях.</li>
-			</ul> -->
-		
-</div>		    
-
+	</div>			
+</div>    
 
 <div id="discount-section" class="container-fluid anchor-page">
 	<div class="row">
@@ -228,7 +214,7 @@
 
 <div id="req-drivers-section" class="container-fluid anchor-page">
 	<div class="row">
-		<div class="col col-lg-5 offset-lg-1">
+		<div class="col-12 col-lg-5 offset-lg-1">
 			<h2 class="text-center">Требования к водителям</h2>
 			<ul>
 				<li>Водительское удостоверение категории «B»</li>
@@ -241,7 +227,7 @@
 				<li>Желание зарабатывать (ОБЯЗАТЕЛЬНО!)</li>
 			</ul>
 		</div>
-		<div class="col col-lg-5">
+		<div class="col-12 col-lg-5">
 			<h2 class="text-center for-connection">Для подключения необходимо всего 3 документа:</h2>
 			<ul class="list-unstyled">
 				<li>1. Водительское удостоверение категории «B»</li>
@@ -296,66 +282,32 @@
 			<p>Посмотреть список всех допустимых марок и моделей можно <a href="https://docs.google.com/spreadsheets/d/1XDzUIVBZxCrNIKkjFOc0eiKHNRLmPDaVJKzKcb1lu0E/edit#gid=407632270" target="_blank">здесь</a></p>
 			<p>Все автомобили должны иметь, по меньшей мере, 4 двери, чистый салон, хорошее внешнее состояние и исправные ремни безопасности.</p>
 		</div>
-	</div>	
-	
+	</div>  
+</div>
 
-  
+<div id="our-commission-section" class="container-fluid anchor-page">
+	<div class="row">
+		<div class="col-10 ml-auto mr-auto">
+			<h2 class="text-center">Наши комиссии и выплаты</h2>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-12 col-lg-10 wrapper ml-auto mr-auto">
+			<p>Стандартный размер партнерской комиссии - <b>6% !</b></p>
+			<p>Это честные 6% без дополнительных «налогов» и прочих удержаний.</p>
+			<p class="action"><b>АКЦИЯ!</b> Для всех подключившихся к нам в 2017 году комиссия в первый месяц работы составит всего <b>2% !</b></p> 
+			<p>Выплаты осуществляются <b>1 раз в неделю.</b></p>
+			<p>По вашему <b>желанию</b> мы будем платить вам <b>ежедневно</b>. При этом размер комиссии увеличится всего на 2%.</p>
+			<p>Если вы совершаете <b>более 400</b> поездок в месяц, размер комиссии будет определён <b>индивидуально</b>.</p>
+		</div>
+	</div>
 </div>
 
 
-	<div id="our-commission-section" class="anchor-page"></div>
-		<h1>Наши комиссии</h1>
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam voluptas quia vitae ea, veritatis totam numquam enim alias tempore architecto aperiam eaque unde laborum explicabo. Aliquid inventore iure quam necessitatibus.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex rem tempora deleniti debitis accusantium explicabo doloremque, quibusdam numquam commodi adipisci? Quis, veniam dolorem officiis blanditiis dicta iusto possimus quasi dolorum.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id assumenda exercitationem, quis laboriosam maiores cum eius, consectetur adipisci ipsam perferendis recusandae labore minima minus eveniet, tenetur explicabo deleniti nam optio!
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, quibusdam numquam aliquam. Quod temporibus pariatur quam, accusamus quia dicta quis, eos velit perspiciatis praesentium. Nemo fugiat nisi distinctio incidunt tempore?
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam voluptas quia vitae ea, veritatis totam numquam enim alias tempore architecto aperiam eaque unde laborum explicabo. Aliquid inventore iure quam necessitatibus.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex rem tempora deleniti debitis accusantium explicabo doloremque, quibusdam numquam commodi adipisci? Quis, veniam dolorem officiis blanditiis dicta iusto possimus quasi dolorum.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id assumenda exercitationem, quis laboriosam maiores cum eius, consectetur adipisci ipsam perferendis recusandae labore minima minus eveniet, tenetur explicabo deleniti nam optio!
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, quibusdam numquam aliquam. Quod temporibus pariatur quam, accusamus quia dicta quis, eos velit perspiciatis praesentium. Nemo fugiat nisi distinctio incidunt tempore?		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam voluptas quia vitae ea, veritatis totam numquam enim alias tempore architecto aperiam eaque unde laborum explicabo. Aliquid inventore iure quam necessitatibus.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex rem tempora deleniti debitis accusantium explicabo doloremque, quibusdam numquam commodi adipisci? Quis, veniam dolorem officiis blanditiis dicta iusto possimus quasi dolorum.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id assumenda exercitationem, quis laboriosam maiores cum eius, consectetur adipisci ipsam perferendis recusandae labore minima minus eveniet, tenetur explicabo deleniti nam optio!
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, quibusdam numquam aliquam. Quod temporibus pariatur quam, accusamus quia dicta quis, eos velit perspiciatis praesentium. Nemo fugiat nisi distinctio incidunt tempore?
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam voluptas quia vitae ea, veritatis totam numquam enim alias tempore architecto aperiam eaque unde laborum explicabo. Aliquid inventore iure quam necessitatibus.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex rem tempora deleniti debitis accusantium explicabo doloremque, quibusdam numquam commodi adipisci? Quis, veniam dolorem officiis blanditiis dicta iusto possimus quasi dolorum.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id assumenda exercitationem, quis laboriosam maiores cum eius, consectetur adipisci ipsam perferendis recusandae labore minima minus eveniet, tenetur explicabo deleniti nam optio!
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, quibusdam numquam aliquam. Quod temporibus pariatur quam, accusamus quia dicta quis, eos velit perspiciatis praesentium. Nemo fugiat nisi distinctio incidunt tempore?
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam voluptas quia vitae ea, veritatis totam numquam enim alias tempore architecto aperiam eaque unde laborum explicabo. Aliquid inventore iure quam necessitatibus.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex rem tempora deleniti debitis accusantium explicabo doloremque, quibusdam numquam commodi adipisci? Quis, veniam dolorem officiis blanditiis dicta iusto possimus quasi dolorum.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id assumenda exercitationem, quis laboriosam maiores cum eius, consectetur adipisci ipsam perferendis recusandae labore minima minus eveniet, tenetur explicabo deleniti nam optio!
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, quibusdam numquam aliquam. Quod temporibus pariatur quam, accusamus quia dicta quis, eos velit perspiciatis praesentium. Nemo fugiat nisi distinctio incidunt tempore?	
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex rem tempora deleniti debitis accusantium explicabo doloremque, quibusdam numquam commodi adipisci? Quis, veniam dolorem officiis blanditiis dicta iusto possimus quasi dolorum.
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id assumenda exercitationem, quis laboriosam maiores cum eius, consectetur adipisci ipsam perferendis recusandae labore minima minus eveniet, tenetur explicabo deleniti nam optio!
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, quibusdam numquam aliquam. Quod temporibus pariatur quam, accusamus quia dicta quis, eos velit perspiciatis praesentium. Nemo fugiat nisi distinctio incidunt tempore?
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam voluptas quia vitae ea, veritatis totam numquam enim alias tempore architecto aperiam eaque unde laborum explicabo. Aliquid inventore iure quam necessitatibus.
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex rem tempora deleniti debitis accusantium explicabo doloremque, quibusdam numquam commodi adipisci? Quis, veniam dolorem officiis blanditiis dicta iusto possimus quasi dolorum.
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id assumenda exercitationem, quis laboriosam maiores cum eius, consectetur adipisci ipsam perferendis recusandae labore minima minus eveniet, tenetur explicabo deleniti nam optio!
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, quibusdam numquam aliquam. Quod temporibus pariatur quam, accusamus quia dicta quis, eos velit perspiciatis praesentium. Nemo fugiat nisi distinctio incidunt tempore?</div>
-<div>
-	<div id="change-partner-section" class="anchor-page"></div>
+	
+	<div id="change-partner-section" class="anchor-page">
 		<h1>Сменить партнера</h1>
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam voluptas quia vitae ea, veritatis totam numquam enim alias tempore architecto aperiam eaque unde laborum explicabo. Aliquid inventore iure quam necessitatibus.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex rem tempora deleniti debitis accusantium explicabo doloremque, quibusdam numquam commodi adipisci? Quis, veniam dolorem officiis blanditiis dicta iusto possimus quasi dolorum.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id assumenda exercitationem, quis laboriosam maiores cum eius, consectetur adipisci ipsam perferendis recusandae labore minima minus eveniet, tenetur explicabo deleniti nam optio!
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, quibusdam numquam aliquam. Quod temporibus pariatur quam, accusamus quia dicta quis, eos velit perspiciatis praesentium. Nemo fugiat nisi distinctio incidunt tempore?
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam voluptas quia vitae ea, veritatis totam numquam enim alias tempore architecto aperiam eaque unde laborum explicabo. Aliquid inventore iure quam necessitatibus.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex rem tempora deleniti debitis accusantium explicabo doloremque, quibusdam numquam commodi adipisci? Quis, veniam dolorem officiis blanditiis dicta iusto possimus quasi dolorum.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id assumenda exercitationem, quis laboriosam maiores cum eius, consectetur adipisci ipsam perferendis recusandae labore minima minus eveniet, tenetur explicabo deleniti nam optio!
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, quibusdam numquam aliquam. Quod temporibus pariatur quam, accusamus quia dicta quis, eos velit perspiciatis praesentium. Nemo fugiat nisi distinctio incidunt tempore?		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam voluptas quia vitae ea, veritatis totam numquam enim alias tempore architecto aperiam eaque unde laborum explicabo. Aliquid inventore iure quam necessitatibus.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex rem tempora deleniti debitis accusantium explicabo doloremque, quibusdam numquam commodi adipisci? Quis, veniam dolorem officiis blanditiis dicta iusto possimus quasi dolorum.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id assumenda exercitationem, quis laboriosam maiores cum eius, consectetur adipisci ipsam perferendis recusandae labore minima minus eveniet, tenetur explicabo deleniti nam optio!
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, quibusdam numquam aliquam. Quod temporibus pariatur quam, accusamus quia dicta quis, eos velit perspiciatis praesentium. Nemo fugiat nisi distinctio incidunt tempore?
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam voluptas quia vitae ea, veritatis totam numquam enim alias tempore architecto aperiam eaque unde laborum explicabo. Aliquid inventore iure quam necessitatibus.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex rem tempora deleniti debitis accusantium explicabo doloremque, quibusdam numquam commodi adipisci? Quis, veniam dolorem officiis blanditiis dicta iusto possimus quasi dolorum.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id assumenda exercitationem, quis laboriosam maiores cum eius, consectetur adipisci ipsam perferendis recusandae labore minima minus eveniet, tenetur explicabo deleniti nam optio!
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, quibusdam numquam aliquam. Quod temporibus pariatur quam, accusamus quia dicta quis, eos velit perspiciatis praesentium. Nemo fugiat nisi distinctio incidunt tempore?
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam voluptas quia vitae ea, veritatis totam numquam enim alias tempore architecto aperiam eaque unde laborum explicabo. Aliquid inventore iure quam necessitatibus.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex rem tempora deleniti debitis accusantium explicabo doloremque, quibusdam numquam commodi adipisci? Quis, veniam dolorem officiis blanditiis dicta iusto possimus quasi dolorum.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id assumenda exercitationem, quis laboriosam maiores cum eius, consectetur adipisci ipsam perferendis recusandae labore minima minus eveniet, tenetur explicabo deleniti nam optio!
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, quibusdam numquam aliquam. Quod temporibus pariatur quam, accusamus quia dicta quis, eos velit perspiciatis praesentium. Nemo fugiat nisi distinctio incidunt tempore?
-	giat nisi distinctio incidunt tempore?
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam voluptas quia vitae ea, veritatis totam numquam enim alias tempore architecto aperiam eaque unde laborum explicabo. Aliquid inventore iure quam necessitatibus.
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex rem tempora deleniti debitis accusantium explicabo doloremque, quibusdam numquam commodi adipisci? Quis, veniam dolorem officiis blanditiis dicta iusto possimus quasi dolorum.
+		
 	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id assumenda exercitationem, quis laboriosam maiores cum eius, consectetur adipisci ipsam perferendis recusandae labore minima minus eveniet, tenetur explicabo deleniti nam optio!
 	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, quibusdam numquam aliquam. Quod temporibus pariatur quam, accusamus quia dicta quis, eos velit perspiciatis praesentium. Nemo fugiat nisi distinctio incidunt tempore?
 </div>
