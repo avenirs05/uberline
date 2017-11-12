@@ -99,18 +99,78 @@
 	<div class="row">
 		<div class="col col-lg-9 ml-auto mr-auto">
 			<h2 class="text-center">Почему все больше водителей приходят работать в UBER?</h2>
-			<ul>
+		</div>
+	</div>
+	<div class="row first-row-discount">
+		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
+			<figure class="figure">
+			  <img height="42" src="imgs/bullit-green-2.png" class="figure-img rounded" alt="">
+			  <figcaption class="figure-caption"><b>Независимость</b><br>Вы сами определяете, когда, сколько и где вы будете выполнять заказы.
+			  </figcaption>
+			</figure>
+		</div>
+		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
+			<figure class="figure">
+			  <img height="42" src="imgs/bullit-green-2.png" class="figure-img rounded" alt="">
+			  <figcaption class="figure-caption"><b>Поток клиентов</b><br>У вас всегда есть заказы. Минимальное время простоя. Минимальный холостой пробег.
+			  </figcaption>
+			</figure>
+		</div>
+		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
+			<figure class="figure">
+			  <img height="42" src="imgs/bullit-green-2.png" class="figure-img rounded" alt="">
+			  <figcaption class="figure-caption"><b>Справедливость</b><br>Повышающие коэффициенты и бонусы за работу в загруженных районах.</li>
+			  </figcaption>
+			</figure>
+		</div>
+	</div>	
+	<div class="row first-row-discount">
+		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
+			<figure class="figure">
+			  <img height="42" src="imgs/bullit-green-2.png" class="figure-img rounded" alt="">
+			  <figcaption class="figure-caption"><b>Гибкость оплаты</b><br>Ежедневная или еженедельная оплата по вашему выбору
+			  </figcaption>
+			</figure>
+		</div>
+		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
+			<figure class="figure">
+			  <img height="42" src="imgs/bullit-green-2.png" class="figure-img rounded" alt="">
+			  <figcaption class="figure-caption"><b>Скидки</b><br>На топливо, запчасти, автосервис, страхование, повседневные товары.
+			  </figcaption>
+			</figure>
+		</div>
+		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
+			<figure class="figure">
+			  <img height="42" src="imgs/bullit-green-2.png" class="figure-img rounded" alt="">
+			  <figcaption class="figure-caption"><b>Безопасность</b><br>Все ваши пассажиры идентифицированы и имеют рейтинг.
+			  </figcaption>
+			</figure>
+		</div>
+	</div>	
+	<div class="row">
+		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
+			<figure class="figure last-figure">
+			  <img height="42" src="imgs/bullit-green-2.png" class="figure-img rounded" alt="">
+			  <figcaption class="figure-caption"><b>Техподдержка</b><br>Мы как официальный партнер поможем в любых внештатных ситуациях.
+			  </figcaption>
+			</figure>
+		</div>
+	</div>	
+
+
+
+<!-- 			<ul>
 				<li>Вы <b>сами</b> определяете, когда, сколько и где вы будете выполнять заказы.</li>
 				<li>У вас всегда есть <b>заказы</b>. Минимальное время простоя. Минимальный холостой пробег.</li>
 				<li>Повышающие <b>коэффициенты</b> и бонусы за работу в загруженных районах.</li>
 				<li><b>Ежедневная</b> или еженедельная оплата по вашему выбору</li>
 				<li><b>Скидки</b> на топливо, запчасти, автосервис, страхование, повседневные товары.</li>
 				<li><b>Безопасность:</b> все ваши пассажиры идентифицированы и имеют рейтинг.</li>
-				<li>Техподдержка официального партнера – мы поможем в любых внештатных ситуациях.</li>
-			</ul>
-		</div>
-	</div>		    
-</div>
+				<li><b>Техподдержка</b> официального партнера – мы поможем в любых внештатных ситуациях.</li>
+			</ul> -->
+		
+</div>		    
+
 
 <div id="discount-section" class="container-fluid anchor-page">
 	<div class="row">
@@ -208,7 +268,7 @@
 			<h2 class="text-center">Требования к автомобилям</h2>
 		</div>
 	</div>	
-	<div class="row first-row-discount">
+	<div class="row">
 		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
 			<figure class="figure">
 			  <img height="200" src="imgs/uber-x.png" class="figure-img rounded" alt="">
@@ -219,7 +279,7 @@
 		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
 			<figure class="figure">
 			  <img height="200" src="imgs/uber-select.png" class="figure-img rounded" alt="">
-			  <figcaption class="figure-caption"><b>Uber Select (Комфорт-класс)</b><br>Иномарки в исправном техническом состоянии не старше 2005 года (для определенных моделей – не старше 2001г). Например: VW Passat,Ford Mondeo,  Toyota Camry, Hyundai Sonata, Skoda Superb или аналогичные модели.
+			  <figcaption class="figure-caption"><b>Uber Select (Комфорт-класс)</b><br>Иномарки в исправном техническом состоянии не старше 2005 года (для определенных моделей – не старше 2001г). Например: VW Passat, Ford Mondeo, Toyota Camry, Hyundai Sonata, Skoda Superb или аналогичные модели.
 			  </figcaption>
 			</figure>
 		</div>
@@ -230,7 +290,16 @@
 			  </figcaption>
 			</figure>
 		</div>
-	</div>	  
+	</div>	
+	<div class="row">
+		<div class="col col-lg-9 ml-auto mr-auto list-auto-text-wrap text-center">
+			<p>Посмотреть список всех допустимых марок и моделей можно <a href="https://docs.google.com/spreadsheets/d/1XDzUIVBZxCrNIKkjFOc0eiKHNRLmPDaVJKzKcb1lu0E/edit#gid=407632270" target="_blank">здесь</a></p>
+			<p>Все автомобили должны иметь, по меньшей мере, 4 двери, чистый салон, хорошее внешнее состояние и исправные ремни безопасности.</p>
+		</div>
+	</div>	
+	
+
+  
 </div>
 
 
@@ -291,23 +360,8 @@
 	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, quibusdam numquam aliquam. Quod temporibus pariatur quam, accusamus quia dicta quis, eos velit perspiciatis praesentium. Nemo fugiat nisi distinctio incidunt tempore?
 </div>
 
+<?php require_once 'footer.php'; ?>
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-
-    <!-- My Own Js-scripts -->
-    <script src="js/main.js"></script>
-    
-    <!-- Маска ввода -->
-    <script src="js/jquery.maskedinput.js" type="text/javascript"></script>
-
-  </body>
-</html>
 
 
