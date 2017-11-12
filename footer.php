@@ -1,4 +1,21 @@
-<p>Footer</p>
+<div class="container-fluid header">
+	<nav class="row navbar navbar-dark bg-dark footer">
+		<div class="col">
+			<span><b>Тел.:</b> +38 099 000 70 00</span> 
+		</div>
+		<div class="w-100"></div>
+		<div class="col">
+			<span><b>email:</b> info@uberline.in.ua</span>
+		</div>
+		<div class="w-100"></div>
+		<div class="col text-center d-none d-lg-block">
+			<span class="copyright">&copy; uberline.in.ua, 2017</span>
+		</div>
+		<div class="col text-left d-lg-none">
+			<span class="copyright">&copy; uberline.in.ua, 2017</span>
+		</div>
+	</nav>
+</div>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

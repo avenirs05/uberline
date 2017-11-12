@@ -17,7 +17,7 @@
   </head>
 
 <body>
-<?php //require_once 'header.php'; ?>
+<?php // require_once 'header.php'; ?>
 
 <div class="container-fluid questions-wrapper">
     <div class="row">
@@ -30,7 +30,7 @@
     </div>
 </div>
 
-<?php //require_once 'footer.php'; ?>
+<?php require_once 'footer.php'; ?>
 
 <?php 
 

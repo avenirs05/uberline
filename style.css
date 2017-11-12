@@ -238,6 +238,14 @@ button[type="submit"]:hover {
 	background-color: #F3F3F3;
 }
 
+.footer {
+	font-size: 14px;
+}
+
+.footer .copyright {
+	font-size: 12px;
+}
+
 @media screen and (max-device-width: 991px) {
 	.navbar {
 		padding-left: 0;
@@ -308,6 +316,10 @@ button[type="submit"]:hover {
 	}
 	#our-commission-section h2 {
 	  margin-bottom: 5px;
+	}
+	.anchor-page h2 {
+		font-size: 24px;
+		font-weight: 600;
 	}
 }
 
