@@ -30,8 +30,12 @@ $(function () {
     // Маска ввода номера телефона
     $("#phone-field").mask("(+380) 99-999-99-99");
     $("#phone-field-modal").mask("(+380) 99-999-99-99");
+    $("#phone-field-change").mask("(+380) 99-999-99-99");
+
     $("#phone-field-mob").mask("(+380) 99 999 99 99", {placeholder: " " });
     $("#phone-field-modal-mob").mask("(+380) 99 999 99 99", {placeholder: " " });
+    $("#phone-field-change-mob").mask("(+380) 99 999 99 99", {placeholder: " " });  
+    
 
     // Модальное окно bootstrap
     $('#btn-fit').click(function() { 
@@ -40,6 +44,7 @@ $(function () {
     $('#btn-fit-mob').click(function() { 
         $('#modal-fit-mob').modal('show'); 
     });
+    
 
     //Прижать футер к низу
     if ($(document).height() <= $(window).height()) {

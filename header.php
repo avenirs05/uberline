@@ -120,7 +120,7 @@
           <div class="col-auto d-flex align-items-center justify-content-end contacts">           
             <img class="phone-icon" src="imgs/phone.svg" width="17" height="17" alt="">
             <div>
-              <span class="phone-digits">+38 099 000 70 00</span>
+              <span class="phone-digits">+380 96 999 54 78</span>
             </div>
             <img class="whatsapp-icon" src="imgs/whatsapp.svg" width="18" height="18" alt="">
             <img class="viber-icon" src="imgs/viber.png" width="16" height="18" alt="">

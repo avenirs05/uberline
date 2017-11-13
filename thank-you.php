@@ -43,7 +43,7 @@ $subject = "Заявка с сайта uberline.in.ua (desktop)";
 
 
 $message = '<html><head><title></title></head><body>
-                    <strong>Тема: заявка с сайта uberline.in.ua</strong><br><br><br>' .
+                    <strong>Тема: заявка с сайта uberline.in.ua (desktop)</strong><br><br><br>' .
                     '<b>Имя:</b> ' . $_POST['name'] . '<br><br>' .
                     '<b>Телефон:</b> ' . $_POST['phone'] . '<br><br>' .  
                     '<b>Email:</b> ' . $_POST['email'] . '<br><br>' .

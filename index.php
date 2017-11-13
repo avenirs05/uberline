@@ -299,17 +299,78 @@
 			<p>Выплаты осуществляются <b>1 раз в неделю.</b></p>
 			<p>По вашему <b>желанию</b> мы будем платить вам <b>ежедневно</b>. При этом размер комиссии увеличится всего на 2%.</p>
 			<p>Если вы совершаете <b>более 400</b> поездок в месяц, размер комиссии будет определён <b>индивидуально</b>.</p>
+			<p class="action"><b>АКЦИЯ! «Приведи друга!» — </b> за каждого водителя, подключившегося к нам по вашей рекомендации, платим по 500 грн по достижении им отметки в 200 поездок.</p> 
 		</div>
 	</div>
 </div>
 
-
-	
-	<div id="change-partner-section" class="anchor-page">
-		<h1>Сменить партнера</h1>
-		
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id assumenda exercitationem, quis laboriosam maiores cum eius, consectetur adipisci ipsam perferendis recusandae labore minima minus eveniet, tenetur explicabo deleniti nam optio!
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, quibusdam numquam aliquam. Quod temporibus pariatur quam, accusamus quia dicta quis, eos velit perspiciatis praesentium. Nemo fugiat nisi distinctio incidunt tempore?
+<div id="change-partner-section" class="container-fluid anchor-page">
+	<div class="row">
+		<div class="col-12 col-lg-7 ml-auto mr-auto">
+			<h2 class="text-center">Хотите перейти от другого партнера к нам?</h2>
+			<h4 class="text-center"><i>Заполните короткую форму ниже:</i></h4>
+		</div>
+	</div>
+	<div class="row">
+		<!-- Desktop form -->
+		<div class="col-7 d-none d-lg-block ml-auto mr-auto">
+			<form action="thank-you-change.php" method="post">
+			  <div class="form-group">
+			    <label for="name-field-change">Фамилия, Имя<span class="red">*</span></label>
+			    <input id="name-field-change" type="text" class="form-control" placeholder="Введите Фамилию и Имя" name="name" required>	
+			  </div>
+			  <div class="form-group">
+			    <label for="phone-field-change">Телефон<span class="red">*</span></label>
+			    <input id="phone-field-change" type="text" class="form-control" placeholder="Введите номер телефона" name="phone" required>
+			  </div>
+			  <div class="form-group">
+			    <label for="email-field-change">Email (электронная почта)</label>
+			    <input id="email-field-change" type="email" class="form-control" placeholder="Введите email, например ivanov@mail.ru" name="email">
+			  </div>
+			  <div class="form-group">
+			    <label for="cause-field-change">Причина смены партнера</label>
+			    <input id="cause-field-change" type="text" class="form-control" placeholder="Напишите причину смены партнера" name="cause">
+			  </div>
+			  <!-- На десктопах будет ссылка на скачивание договора -->
+			  <div class="form-check">
+			    <label class="form-check-label">
+			      <input type="checkbox" class="form-check-input" name="agree" checked disabled>
+			      с условиями <a href="agreement.docx" target="_blank">агентского договора</a> ознакомлен и согласен
+			    </label>
+			  </div>
+			  <button type="submit" class="btn btn-primary">Сменить партнера</button>
+			</form>
+		</div>		
+		<!-- Mobile form -->
+		<div class="col d-lg-none ml-auto mr-auto">
+			<form action="thank-you-change-mob.php" method="post">
+			  <div class="form-group">
+			    <label for="name-field-change-mob">Фамилия, Имя<span class="red">*</span></label>
+			    <input id="name-field-change-mob" type="text" class="form-control" placeholder="Введите Фамилию и Имя" name="name" required>	
+			  </div>
+			  <div class="form-group">
+			    <label for="phone-field-change-mob">Телефон<span class="red">*</span></label>
+			    <input id="phone-field-change-mob" type="text" class="form-control" placeholder="Введите номер телефона" name="phone" required>
+			  </div>
+			  <div class="form-group">
+			    <label for="email-field-change-mob">Email (электронная почта)</label>
+			    <input id="email-field-change-mob" type="email" class="form-control" placeholder="Введите email, например ivanov@mail.ru" name="email">
+			  </div>
+			  <div class="form-group">
+			    <label for="cause-field-change-mob">Причина смены партнера</label>
+			    <input id="cause-field-change-mob" type="text" class="form-control" placeholder="Напишите причину смены партнера" name="cause">
+			  </div>
+			  <!-- На мобильных будет ссылка на страницу с договором -->
+			  <div class="form-check">
+			    <label class="form-check-label">
+			      <input type="checkbox" class="form-check-input" name="agree" checked disabled>
+			      с условиями <a href="agreement.php" target="_blank">агентского договора</a> ознакомлен и согласен
+			    </label>
+			  </div>
+			  <button type="submit" class="btn btn-primary">Сменить партнера</button>
+			</form>
+		</div>
+	</div>
 </div>
 
 <?php require_once 'footer.php'; ?>
