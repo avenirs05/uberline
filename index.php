@@ -1,4 +1,4 @@
-﻿<?php require_once 'header.php'; ?>
+﻿<?php require_once 'layouts/header.php'; ?>
 
 <!-- Main-screen for desktop -->
 <div class="container-fluid d-none d-lg-block main-screen">
@@ -35,7 +35,7 @@
 			  <div class="form-check">
 			    <label class="form-check-label">
 			      <input type="checkbox" class="form-check-input" name="agree" checked disabled>
-			      с условиями <a href="agreement.docx" target="_blank">агентского договора</a> ознакомлен и согласен
+			      с условиями <a href="downloads/agreement.docx" target="_blank">агентского договора</a> ознакомлен и согласен
 			    </label>
 			  </div>
 			  <button type="submit" class="btn btn-primary">Стать водителем</button>
@@ -335,7 +335,7 @@
 			  <div class="form-check">
 			    <label class="form-check-label">
 			      <input type="checkbox" class="form-check-input" name="agree" checked disabled>
-			      с условиями <a href="agreement.docx" target="_blank">агентского договора</a> ознакомлен и согласен
+			      с условиями <a href="downloads/agreement.docx" target="_blank">агентского договора</a> ознакомлен и согласен
 			    </label>
 			  </div>
 			  <button type="submit" class="btn btn-primary">Сменить партнера</button>
@@ -373,7 +373,7 @@
 	</div>
 </div>
 
-<?php require_once 'footer.php'; ?>
+<?php require_once 'layouts/footer.php'; ?>
 
 
 
