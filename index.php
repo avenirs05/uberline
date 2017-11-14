@@ -29,7 +29,7 @@
 </div>
 
 <!-- Form for mobile -->
-<div class="container-fluid d-lg-none form-wrapper-mob">
+<div id="form-mobile-section" class="container-fluid d-lg-none form-wrapper-mob">
 	<div class="row">
 		<div class="col">
 			<?php require 'layouts/form-main-mob.php'; ?>
@@ -47,7 +47,7 @@
 	<div class="row first-row-discount">
 		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
 			<figure class="figure">
-			  <img height="42" src="imgs/bullit-green-2.png" class="figure-img rounded" alt="">
+			  <img height="42" src="imgs/bullit-green.png" class="figure-img rounded" alt="">
 			  <figcaption class="figure-caption"><b>Независимость</b><br>Вы сами определяете, когда, сколько и где вы будете выполнять заказы.
 			  </figcaption>
 			</figure>
@@ -188,7 +188,8 @@
 	</div>   
 	<div class="row text-center">
 		<div class="col col-lg-3 ml-auto mr-auto">
-			<button id="btn-fit" type="submit" class="btn btn-primary">Оставить заявку</button>
+			<button id="btn-fit" type="submit" class="btn btn-primary d-none d-lg-block">Оставить заявку</button>
+			<button id="btn-fit-mob" type="submit" class="btn btn-primary d-lg-none">Оставить заявку</button>
 		</div>	
 	</div>
 </div>

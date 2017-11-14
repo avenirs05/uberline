@@ -82,14 +82,16 @@ form {
     font-size: 18px;
 }
 
-#modal-fit form {
+#modal-fit form,
+#modal-fit-mob form {
 	color: #000;
 	background: #f3f3f3;
 	border: 1px solid grey;
 	margin-top: -15px;
 }
 
-#modal-fit a {
+#modal-fit a,
+#modal-fit-mob a {
 	color: #000;
 }
 
@@ -253,6 +255,10 @@ button[type="submit"]:hover {
 	border: none;
 	margin-top: 0;
 	padding-bottom: 0;
+}
+
+#form-mobile-section a {
+	color: #000;
 }
 
 @media screen and (max-device-width: 991px) {

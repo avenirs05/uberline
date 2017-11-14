@@ -7,7 +7,7 @@
         </button>
       </div>
       <div class="modal-body">
-        <?php require 'layouts/form-main-mob.php'; ?>
+        <?php require 'form-main-mob.php'; ?>
       </div>
     </div>
   </div>

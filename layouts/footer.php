@@ -1,7 +1,7 @@
 <div class="container-fluid header">
 	<nav class="row navbar navbar-dark bg-dark footer">
 		<div class="col">
-			<span><b>Тел.:</b> +380 96 999 54 78</span> 
+			<span><b>Тел.:</b> +380 99 291 89 60</span> 
 		</div>
 		<div class="w-100"></div>
 		<div class="col">
