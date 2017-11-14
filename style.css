@@ -1,11 +1,11 @@
-html{
-  overflow-y: scroll;
-  overflow-x: auto;
+body {
+		padding-top: 54px;
 }
 
-body{
-		padding-top: 54px;
-	}
+.sticky-top {
+	    position: fixed !important;
+	    width: 100%;
+}
 
 ul, li, span {
 	margin: 0;
@@ -333,7 +333,6 @@ button[type="submit"]:hover {
 	#change-partner-section h4 {
 		font-size: 18px;
 	}
-
 }
 
 @media screen and (min-device-width: 320px) {
@@ -366,10 +365,6 @@ button[type="submit"]:hover {
 	}
 }
 
-@media screen and (min-device-width: 576px) {
-
-}
-
 @media screen and (min-device-width: 768px) {
 	.main-screen-mob h1 {
 		font-size: 32px;
@@ -398,7 +393,6 @@ button[type="submit"]:hover {
 	.main-screen .headers h1 {
 		font-size: 62px;
 	}
-
 }
 
 @media screen and (min-device-width: 1200px) {	
@@ -419,19 +413,7 @@ button[type="submit"]:hover {
 	}
 }
 
-@media screen and (min-device-width: 1600px) {
 
-}
-
-@media screen and (min-device-width: 1920px) {
-
-}
-
-
-.sticky-top{
-	    position: fixed !important;
-	    width: 100%;
-}
 
 
 

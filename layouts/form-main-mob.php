@@ -1,23 +1,23 @@
-﻿<form action="/thanks-mob.php" method="post">
+<form action="thank-you-mob.php" method="post">
   <div class="form-group">
-    <label for="name-field-mob">Фамилия, Имя<span class="red">*</span></label>
-    <input id="name-field-mob" type="text" class="form-control" placeholder="Введите Фамилию и Имя" name="name-mob" required> 
+    <label>Фамилия, Имя<span class="red">*</span></label>
+    <input type="text" class="form-control" placeholder="Введите Фамилию и Имя" name="name-mob" required> 
   </div>
   <div class="form-group">
-    <label for="phone-field-mob">Телефон<span class="red">*</span></label>
-    <input id="phone-field-mob" type="text" class="form-control" placeholder="Введите номер телефона" name="phone-mob" required>
+    <label>Телефон<span class="red">*</span></label>
+    <input type="text" class="phone-field-mob form-control" placeholder="Введите номер телефона" name="phone-mob" required>
   </div>
   <div class="form-group">
-    <label for="email-field-mob">Email (электронная почта)</label>
-    <input id="email-field-mob" type="email" class="form-control" placeholder="Например, ivanov@mail.ru" name="email-mob">
+    <label>Email (электронная почта)</label>
+    <input type="email" class="form-control" placeholder="Например, ivanov@mail.ru" name="email-mob">
   </div>
   <div class="form-group">
-    <label for="brand-and-model-field-mob">Марка и модель авто</label>
-    <input id="brand-and-model-field-mob" type="text" class="form-control" placeholder="Например, Ford Focus" name="brand-and-model-mob">
+    <label>Марка и модель авто</label>
+    <input type="text" class="form-control" placeholder="Например, Ford Focus" name="brand-and-model-mob">
   </div>
   <div class="form-group">
-    <label for="year-field-mob">Год выпуска авто</label>
-    <input id="year-field-mob" type="text" class="form-control" placeholder="Введите год выпуска" name="year-mob">
+    <label>Год выпуска авто</label>
+    <input type="text" class="form-control" placeholder="Введите год выпуска" name="year-mob">
   </div>
   <div class="form-check">
     <label class="form-check-label">

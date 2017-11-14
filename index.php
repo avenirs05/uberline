@@ -10,40 +10,10 @@
 			<h2>Честная комиссия – от 2%</h2>
 		</div>
 		<div class="col-4">
-			<form action="thank-you.php" method="post">
-			  <div class="form-group">
-			    <label for="name-field">Фамилия, Имя<span class="red">*</span></label>
-			    <input id="name-field" type="text" class="form-control" placeholder="Введите Фамилию и Имя" name="name" required>	
-			  </div>
-			  <div class="form-group">
-			    <label for="phone-field">Телефон<span class="red">*</span></label>
-			    <input id="phone-field" type="text" class="form-control" placeholder="Введите номер телефона" name="phone" required>
-			  </div>
-			  <div class="form-group">
-			    <label for="email-field">Email (электронная почта)</label>
-			    <input id="email-field" type="email" class="form-control" placeholder="Введите email, например ivanov@mail.ru" name="email">
-			  </div>
-			  <div class="form-group">
-			    <label for="brand-and-model-field">Марка и модель авто</label>
-			    <input id="brand-and-model-field" type="text" class="form-control" placeholder="Например, Ford Focus" name="brand-and-model">
-			  </div>
-			  <div class="form-group">
-			    <label for="year-field">Год выпуска авто</label>
-			    <input id="year-field" type="text" class="form-control" placeholder="Введите год выпуска" name="year">
-			  </div>
-			  <!-- На десктопах будет ссылка на скачивание договора -->
-			  <div class="form-check">
-			    <label class="form-check-label">
-			      <input type="checkbox" class="form-check-input" name="agree" checked disabled>
-			      с условиями <a href="downloads/agreement.docx" target="_blank">агентского договора</a> ознакомлен и согласен
-			    </label>
-			  </div>
-			  <button type="submit" class="btn btn-primary">Стать водителем</button>
-			</form>
+			<?php require 'layouts/form-main-desk.php'; ?>
 		</div>
 	</div>		    
 </div>
-
 
 <!-- Main-screen for mobile -->
 <div class="container-fluid d-lg-none main-screen-mob">
@@ -62,39 +32,12 @@
 <div class="container-fluid d-lg-none form-wrapper-mob">
 	<div class="row">
 		<div class="col">
-			<form action="thank-you-mob.php" method="post">
-			  <div class="form-group">
-			    <label for="name-field-mob">Фамилия, Имя<span class="red">*</span></label>
-			    <input id="name-field-mob" type="text" class="form-control" placeholder="Введите Фамилию и Имя" name="name-mob" required>	
-			  </div>
-			  <div class="form-group">
-			    <label for="phone-field-mob">Телефон<span class="red">*</span></label>
-			    <input id="phone-field-mob" type="text" class="form-control" placeholder="Введите номер телефона" name="phone-mob" required>
-			  </div>
-			  <div class="form-group">
-			    <label for="email-field-mob">Email (электронная почта)</label>
-			    <input id="email-field-mob" type="email" class="form-control" placeholder="Например, ivanov@mail.ru" name="email-mob">
-			  </div>
-			  <div class="form-group">
-			    <label for="brand-and-model-field-mob">Марка и модель авто</label>
-			    <input id="brand-and-model-field-mob" type="text" class="form-control" placeholder="Например, Ford Focus" name="brand-and-model-mob">
-			  </div>
-			  <div class="form-group">
-			    <label for="year-field-mob">Год выпуска авто</label>
-			    <input id="year-field-mob" type="text" class="form-control" placeholder="Введите год выпуска" name="year-mob">
-			  </div>
-			  <div class="form-check">
-			    <label class="form-check-label">
-			      <input type="checkbox" class="form-check-input" name="agree-mob" checked disabled>
-			      с условиями <a href="agreement.php" target="_blank">агентского договора</a> ознакомлен и согласен
-			    </label>
-			  </div>
-			  <button type="submit" class="btn btn-primary">Стать водителем</button>
-			</form>
+			<?php require 'layouts/form-main-mob.php'; ?>
 		</div>
 	</div>		    
 </div>
 
+<!-- Почему Uber -->
 <div id="why-uber-section" class="container-fluid anchor-page">
 	<div class="row">
 		<div class="col col-lg-9 ml-auto mr-auto">
@@ -158,6 +101,7 @@
 	</div>			
 </div>    
 
+<!-- Скидки -->
 <div id="discount-section" class="container-fluid anchor-page">
 	<div class="row">
 		<div class="col">
@@ -212,6 +156,7 @@
 	</div>    
 </div>
 
+<!-- Требования к водителям -->
 <div id="req-drivers-section" class="container-fluid anchor-page">
 	<div class="row">
 		<div class="col-12 col-lg-5 offset-lg-1">
@@ -248,6 +193,7 @@
 	</div>
 </div>
 
+<!-- Требования к автомобилям -->
 <div id="req-auto-section" class="container-fluid anchor-page">
 	<div class="row">
 		<div class="col">
@@ -285,6 +231,7 @@
 	</div>  
 </div>
 
+<!-- Наши комиссии -->
 <div id="our-commission-section" class="container-fluid anchor-page">
 	<div class="row">
 		<div class="col-10 ml-auto mr-auto">
@@ -304,6 +251,7 @@
 	</div>
 </div>
 
+<!-- Сменить партнера -->
 <div id="change-partner-section" class="container-fluid anchor-page">
 	<div class="row">
 		<div class="col-12 col-lg-7 ml-auto mr-auto">
@@ -314,61 +262,11 @@
 	<div class="row">
 		<!-- Desktop form -->
 		<div class="col-7 d-none d-lg-block ml-auto mr-auto">
-			<form action="thank-you-change.php" method="post">
-			  <div class="form-group">
-			    <label for="name-field-change">Фамилия, Имя<span class="red">*</span></label>
-			    <input id="name-field-change" type="text" class="form-control" placeholder="Введите Фамилию и Имя" name="name" required>	
-			  </div>
-			  <div class="form-group">
-			    <label for="phone-field-change">Телефон<span class="red">*</span></label>
-			    <input id="phone-field-change" type="text" class="form-control" placeholder="Введите номер телефона" name="phone" required>
-			  </div>
-			  <div class="form-group">
-			    <label for="email-field-change">Email (электронная почта)</label>
-			    <input id="email-field-change" type="email" class="form-control" placeholder="Введите email, например ivanov@mail.ru" name="email">
-			  </div>
-			  <div class="form-group">
-			    <label for="cause-field-change">Причина смены партнера</label>
-			    <input id="cause-field-change" type="text" class="form-control" placeholder="Напишите причину смены партнера" name="cause">
-			  </div>
-			  <!-- На десктопах будет ссылка на скачивание договора -->
-			  <div class="form-check">
-			    <label class="form-check-label">
-			      <input type="checkbox" class="form-check-input" name="agree" checked disabled>
-			      с условиями <a href="downloads/agreement.docx" target="_blank">агентского договора</a> ознакомлен и согласен
-			    </label>
-			  </div>
-			  <button type="submit" class="btn btn-primary">Сменить партнера</button>
-			</form>
+			<?php require 'layouts/form-change-desk.php'; ?>
 		</div>		
 		<!-- Mobile form -->
 		<div class="col d-lg-none ml-auto mr-auto">
-			<form action="thank-you-change-mob.php" method="post">
-			  <div class="form-group">
-			    <label for="name-field-change-mob">Фамилия, Имя<span class="red">*</span></label>
-			    <input id="name-field-change-mob" type="text" class="form-control" placeholder="Введите Фамилию и Имя" name="name" required>	
-			  </div>
-			  <div class="form-group">
-			    <label for="phone-field-change-mob">Телефон<span class="red">*</span></label>
-			    <input id="phone-field-change-mob" type="text" class="form-control" placeholder="Введите номер телефона" name="phone" required>
-			  </div>
-			  <div class="form-group">
-			    <label for="email-field-change-mob">Email (электронная почта)</label>
-			    <input id="email-field-change-mob" type="email" class="form-control" placeholder="Введите email, например ivanov@mail.ru" name="email">
-			  </div>
-			  <div class="form-group">
-			    <label for="cause-field-change-mob">Причина смены партнера</label>
-			    <input id="cause-field-change-mob" type="text" class="form-control" placeholder="Напишите причину смены партнера" name="cause">
-			  </div>
-			  <!-- На мобильных будет ссылка на страницу с договором -->
-			  <div class="form-check">
-			    <label class="form-check-label">
-			      <input type="checkbox" class="form-check-input" name="agree" checked disabled>
-			      с условиями <a href="agreement.php" target="_blank">агентского договора</a> ознакомлен и согласен
-			    </label>
-			  </div>
-			  <button type="submit" class="btn btn-primary">Сменить партнера</button>
-			</form>
+			<?php require 'layouts/form-change-mob.php'; ?>
 		</div>
 	</div>
 </div>
