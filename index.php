@@ -54,14 +54,14 @@
 		</div>
 		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
 			<figure class="figure">
-			  <img height="42" src="imgs/bullit-green-2.png" class="figure-img rounded" alt="">
+			  <img height="42" src="imgs/bullit-green.png" class="figure-img rounded" alt="">
 			  <figcaption class="figure-caption"><b>Поток клиентов</b><br>У вас всегда есть заказы. Минимальное время простоя. Минимальный холостой пробег.
 			  </figcaption>
 			</figure>
 		</div>
 		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
 			<figure class="figure">
-			  <img height="42" src="imgs/bullit-green-2.png" class="figure-img rounded" alt="">
+			  <img height="42" src="imgs/bullit-green.png" class="figure-img rounded" alt="">
 			  <figcaption class="figure-caption"><b>Справедливость</b><br>Повышающие коэффициенты и бонусы за работу в загруженных районах.</li>
 			  </figcaption>
 			</figure>
@@ -70,21 +70,21 @@
 	<div class="row first-row-discount">
 		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
 			<figure class="figure">
-			  <img height="42" src="imgs/bullit-green-2.png" class="figure-img rounded" alt="">
+			  <img height="42" src="imgs/bullit-green.png" class="figure-img rounded" alt="">
 			  <figcaption class="figure-caption"><b>Гибкость оплаты</b><br>Ежедневная или еженедельная оплата по вашему выбору
 			  </figcaption>
 			</figure>
 		</div>
 		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
 			<figure class="figure">
-			  <img height="42" src="imgs/bullit-green-2.png" class="figure-img rounded" alt="">
+			  <img height="42" src="imgs/bullit-green.png" class="figure-img rounded" alt="">
 			  <figcaption class="figure-caption"><b>Скидки</b><br>На топливо, запчасти, автосервис, страхование, повседневные товары.
 			  </figcaption>
 			</figure>
 		</div>
 		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
 			<figure class="figure">
-			  <img height="42" src="imgs/bullit-green-2.png" class="figure-img rounded" alt="">
+			  <img height="42" src="imgs/bullit-green.png" class="figure-img rounded" alt="">
 			  <figcaption class="figure-caption"><b>Безопасность</b><br>Все ваши пассажиры идентифицированы и имеют рейтинг.
 			  </figcaption>
 			</figure>
@@ -93,7 +93,7 @@
 	<div class="row">
 		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
 			<figure class="figure last-figure">
-			  <img height="42" src="imgs/bullit-green-2.png" class="figure-img rounded" alt="">
+			  <img height="42" src="imgs/bullit-green.png" class="figure-img rounded" alt="">
 			  <figcaption class="figure-caption"><b>Техподдержка</b><br>Мы как официальный партнер поможем в любых внештатных ситуациях.
 			  </figcaption>
 			</figure>
