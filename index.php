@@ -301,7 +301,7 @@
 	</div>	
 	<div class="row">
 		<div class="col col-lg-9 ml-auto mr-auto list-auto-text-wrap text-center">
-			<p>Посмотреть список всех допустимых марок и моделей можно <a href="https://docs.google.com/spreadsheets/d/1XDzUIVBZxCrNIKkjFOc0eiKHNRLmPDaVJKzKcb1lu0E/edit#gid=407632270" target="_blank">здесь</a></p>
+			<p>Посмотреть список всех допустимых марок и моделей можно <a href="https://docs.google.com/spreadsheets/d/1XDzUIVBZxCrNIKkjFOc0eiKHNRLmPDaVJKzKcb1lu0E/edit#gid=407632270" target="_blank">здесь</a>.</p>
 			<p>Все автомобили должны иметь, по меньшей мере, 4 двери, чистый салон, хорошее внешнее состояние и исправные ремни безопасности.</p>
 		</div>
 	</div>  
