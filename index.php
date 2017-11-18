@@ -37,6 +37,81 @@
 	</div>		    
 </div>
 
+<!-- Cities -->
+<div id="discount-section" class="container-fluid anchor-page">
+	<div class="row">
+		<div class="col">
+			<h2 class="text-center">UBER работает в следующих городах:</h2>
+		</div>
+	</div>	
+	<div class="row first-row-discount">
+		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
+			<figure class="figure">
+			  <img height="150" src="imgs/kiev.jpg" class="figure-img rounded" alt="">
+			  <figcaption class="figure-caption"><b>Киев</b></figcaption>
+			</figure>
+		</div>
+		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
+			<figure class="figure">
+			  <img height="150" src="imgs/harkov.jpg" class="figure-img rounded" alt="">
+			  <figcaption class="figure-caption"><b>Харьков</b></figcaption>
+			</figure>
+		</div>
+		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
+			<figure class="figure">
+			  <img height="150" src="imgs/odessa.jpg" class="figure-img rounded" alt="">
+			  <figcaption class="figure-caption"><b>Одесса</b></figcaption>
+			</figure>
+		</div>
+		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
+			<figure class="figure">
+			  <img height="150" src="imgs/dnepr.jpg" class="figure-img rounded" alt="">
+			  <figcaption class="figure-caption"><b>Днепр</b></figcaption>
+			</figure>
+		</div>
+	</div>	
+	<div class="row first-row-discount">
+		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
+			<figure class="figure">
+			  <img height="150" src="imgs/lvov.jpg" class="figure-img rounded" alt="">
+			  <figcaption class="figure-caption"><b>Львов</b></figcaption>
+			</figure>
+		</div>
+		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
+			<figure class="figure">
+			  <img height="150" src="imgs/zapor.jpg" class="figure-img rounded" alt="">
+			  <figcaption class="figure-caption"><b>Запорожье</b></figcaption>
+			</figure>
+		</div>
+		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
+			<figure class="figure">
+			  <img height="150" src="imgs/kr-rog.jpg" class="figure-img rounded" alt="">
+			  <figcaption class="figure-caption"><b>Кривой Рог</b></figcaption>
+			</figure>
+		</div>
+		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
+			<figure class="figure">
+			  <img height="150" src="imgs/mariupol.jpg" class="figure-img rounded" alt="">
+			  <figcaption class="figure-caption"><b>Мариуполь</b></figcaption>
+			</figure>
+		</div>
+	</div> 
+	<div class="row">
+		<div class="col-12 col-lg-3 offset-lg-3 text-center">
+			<figure class="figure">
+			  <img height="150" src="imgs/vinniza.jpg" class="figure-img rounded" alt="">
+			  <figcaption class="figure-caption"><b>Винница</b></figcaption>
+			</figure>
+		</div>
+		<div class="col-12 col-lg-3 text-center">
+			<figure class="figure last-figure">
+			  <img height="150" src="imgs/nikolaev.jpg" class="figure-img rounded" alt="">
+			  <figcaption class="figure-caption"><b>Николаев</b></figcaption>
+			</figure>
+		</div>
+	</div> 
+</div>
+
 <!-- Почему Uber -->
 <div id="why-uber-section" class="container-fluid anchor-page">
 	<div class="row">
@@ -62,7 +137,7 @@
 		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
 			<figure class="figure">
 			  <img height="42" src="imgs/bullit-green.png" class="figure-img rounded" alt="">
-			  <figcaption class="figure-caption"><b>Справедливость</b><br>Повышающие коэффициенты и бонусы за работу в загруженных районах.</li>
+			  <figcaption class="figure-caption"><b>Справедливость</b><br>Повышающие коэффициенты и бонусы за работу в загруженных районах.
 			  </figcaption>
 			</figure>
 		</div>
@@ -243,11 +318,11 @@
 		<div class="col-12 col-lg-10 wrapper ml-auto mr-auto">
 			<p>Стандартный размер партнерской комиссии - <b>6% !</b></p>
 			<p>Это честные 6% без дополнительных «налогов» и прочих удержаний.</p>
-			<p class="action"><b>АКЦИЯ!</b> Для всех подключившихся к нам в 2017 году комиссия в первый месяц работы составит всего <b>2% !</b></p> 
+			<p class="action"><b>АКЦИЯ!</b> Для всех подключившихся к нам в 2017 году комиссия до конца текущего года составит всего <b>2% !</b></p> 
 			<p>Выплаты осуществляются <b>1 раз в неделю.</b></p>
 			<p>По вашему <b>желанию</b> мы будем платить вам <b>ежедневно</b>. При этом размер комиссии увеличится всего на 2%.</p>
 			<p>Если вы совершаете <b>более 400</b> поездок в месяц, размер комиссии будет определён <b>индивидуально</b>.</p>
-			<p class="action"><b>АКЦИЯ! «Приведи друга!» — </b> за каждого водителя, подключившегося к нам по вашей рекомендации, платим по 500 грн по достижении им отметки в 200 поездок.</p> 
+			<p class="action"><b>АКЦИЯ! «Приведи друга!» — </b> за каждого водителя, подключившегося к нам по вашей рекомендации, платим по 500 грн по достижении им отметки в 200 поездок и положительном балансе аккаунта.</p> 
 		</div>
 	</div>
 </div>
