@@ -60,6 +60,9 @@ $(function () {
     $('#btn-fit-mob').click(function() { 
         $('#modal-fit-mob').modal('show'); 
     });
+    $('#btn-all-conditions').click(function() { 
+        $('#modal-all-conditions').modal('show'); 
+    });
     
 
     //Прижать футер к низу

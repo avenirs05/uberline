@@ -53,6 +53,9 @@
     <!-- Модальное окно мобайл -->
     <?php require 'modal-form-mob.php'; ?>
 
+    <!-- Модальное окно все условия -->
+    <?php require 'modal-all-conditions.php'; ?>
+
     <div class="container-fluid sticky-top header d-none d-lg-block">
       <nav class="row navbar navbar-light bg-dark">
           <div class="col-auto d-flex align-items-center">

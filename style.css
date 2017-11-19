@@ -261,6 +261,32 @@ button[type="submit"]:hover {
 	color: #000;
 }
 
+#btn-all-conditions {
+	color: #007bff;
+	border: none;
+	background-color: transparent;
+	padding: 0;
+	cursor: pointer;
+}
+
+#btn-all-conditions:hover {
+	color: rgb(0, 86, 179);
+}
+
+
+/*Модальное окно Бутстрап "Все условия"*/
+#modal-all-conditions .modal-dialog {
+	max-width: 95%;
+}
+
+#modal-all-conditions .modal-dialog h2 {
+	margin-top: -10px;
+}
+
+#modal-all-conditions .all-conditions-text {
+	width: 800px;
+}
+
 @media screen and (max-device-width: 991px) {
 	.navbar {
 		padding-left: 0;
@@ -339,6 +365,21 @@ button[type="submit"]:hover {
 	#change-partner-section h4 {
 		font-size: 18px;
 	}
+	/*Модальное окно Бутстрап "Все условия"*/
+	#modal-all-conditions .modal-dialog h2 {
+		font-size: 24px;
+		padding-left: 15px;
+		padding-right: 15px;
+		font-weight: bold;
+	}
+	#modal-all-conditions .modal-dialog h4 {
+		margin-bottom: -15px;
+		color: #E7382B;
+	}
+	#modal-all-conditions .all-conditions-text {
+		width: 100%;
+	}
+
 }
 
 @media screen and (min-device-width: 320px) {
