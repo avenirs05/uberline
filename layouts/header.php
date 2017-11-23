@@ -16,7 +16,7 @@
     <link href="../style.css" rel="stylesheet">
 
     <!-- Yandex.Metrika counter -->
-    <script type="text/javascript" >
+    <script type="text/javascript">
         (function (d, w, c) {
             (w[c] = w[c] || []).push(function() {
                 try {

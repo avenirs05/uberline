@@ -1,4 +1,4 @@
-<div id="modal-all-conditions" class="modal" tabindex="-1" role="dialog">
+<div id="modal-all-conditions" class="modal fade" tabindex="-1" role="dialog">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">       
@@ -46,7 +46,7 @@
         <!-- Версия для мобильных, вместо таблицы -->
         <div class="d-lg-none">
           <div>
-            <br>
+            br
             <h4>Тариф "Стандартный"</h4><br>
             <span><b>Размер партнерской комиссии:</b> 6%</span><br>
             <span><b>Абонентская плата:</b> нет</span><br>
