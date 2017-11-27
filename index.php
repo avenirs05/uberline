@@ -70,7 +70,7 @@
 			</figure>
 		</div>
 	</div>	
-	<div class="row first-row-discount">
+	<div class="row">
 		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
 			<figure class="figure">
 			  <img height="150" src="imgs/lvov.jpg" class="figure-img rounded" alt="">
@@ -84,31 +84,17 @@
 			</figure>
 		</div>
 		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
-			<figure class="figure">
-			  <img height="150" src="imgs/kr-rog.jpg" class="figure-img rounded" alt="">
-			  <figcaption class="figure-caption"><b>Кривой Рог</b></figcaption>
-			</figure>
-		</div>
-		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
-			<figure class="figure">
-			  <img height="150" src="imgs/mariupol.jpg" class="figure-img rounded" alt="">
-			  <figcaption class="figure-caption"><b>Мариуполь</b></figcaption>
-			</figure>
-		</div>
-	</div> 
-	<div class="row">
-		<div class="col-12 col-lg-3 offset-lg-3 text-center">
-			<figure class="figure">
+			<figure class="figure last-figure">
 			  <img height="150" src="imgs/vinniza.jpg" class="figure-img rounded" alt="">
 			  <figcaption class="figure-caption"><b>Винница</b></figcaption>
 			</figure>
 		</div>
-		<div class="col-12 col-lg-3 text-center">
+<!-- 		<div class="col-12 col-lg-3 offset-lg-3 text-center">
 			<figure class="figure last-figure">
-			  <img height="150" src="imgs/nikolaev.jpg" class="figure-img rounded" alt="">
-			  <figcaption class="figure-caption"><b>Николаев</b></figcaption>
+			  <img height="150" src="imgs/vinniza.jpg" class="figure-img rounded" alt="">
+			  <figcaption class="figure-caption"><b>Винница</b></figcaption>
 			</figure>
-		</div>
+		</div> -->
 	</div> 
 </div>
 
