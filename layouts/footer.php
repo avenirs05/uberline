@@ -9,10 +9,10 @@
 		</div>
 		<div class="w-100"></div>
 		<div class="col logo d-flex align-items-center">
-			Сайт сделан в&nbsp;<span class="d-none d-lg-block">веб-студии</span>
-			<a href="../smartfox.local" target="_blank" style="display: block; text-decoration: none;"><div style="padding: 0px 5px; display: flex; align-items: center; border-radius: 3px;">
-					<img class="logo-img" src="/imgs/logo-fox.png" height="18" alt="">&nbsp;
-					<span class="logo-text" style="font-size: 18px; color: rgb(251, 140, 0);">SMART FOX</span>
+			Сайт сделан в<span class="d-none d-lg-block">&nbsp;веб-студии</span>
+			<a href="http://smartfox.su/" target="_blank" style="display: block; text-decoration: none;"><div style="padding: 0px 5px; display: flex; align-items: center; border-radius: 3px;">
+					<!-- <img class="logo-img" src="/imgs/logo-fox.png" height="18" alt="">&nbsp; -->
+					<span class="logo-text" style="font-size: 14px; color: rgb(251, 140, 0);">SMART FOX</span>
 				</div>
 			</a>
 		</div>
