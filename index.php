@@ -266,7 +266,7 @@
 		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
 			<figure class="figure">
 			  <img height="200" src="imgs/uber-x.png" class="figure-img rounded" alt="">
-			  <figcaption class="figure-caption"><b>UberX (Доступный класс)</b><br>Автомобили в исправном техническом состоянии не старше 1995 года. Например: Renault Logan, Daewoo Lanos, Chevrolet Aveo, Skoda Fabia, VW Polo, Hyundai Accent, Opel Astra или аналогичные модели, в т.ч. ZAZ, Lada, Geely и др. 
+			  <figcaption class="figure-caption"><b>UberX (Доступный класс)</b><br>Автомобили в исправном техническом состоянии без ограничения по возрасту. Например: Renault Logan, Daewoo Lanos, Chevrolet Aveo, Skoda Fabia, VW Polo, Hyundai Accent, Opel Astra или аналогичные модели, в т.ч. ZAZ, Lada, Geely и др.  
 			  </figcaption>
 			</figure>
 		</div>
@@ -285,6 +285,17 @@
 			</figure>
 		</div>
 	</div>	
+	<div class="row" style="margin-top: 25px;">
+		<div class="col-12 col-lg-3 ml-auto mr-auto text-center"></div>
+		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
+			<figure class="figure last-figure">
+			  <img height="150" src="imgs/uber-van.png" class="figure-img rounded" alt="">
+			  <figcaption class="figure-caption"><b>Uber VAN</b><br>Автомобили, имеющие не менее 6 мест, оборудованных ремнями безопасности. Например, Opel Vivaro, VW Transporter, Renault Traffic, Hyundai H-1 или аналогичные модели. Данный класс доступен только для Киева.
+			  </figcaption>
+			</figure>
+		</div>
+		<div class="col-12 col-lg-3 ml-auto mr-auto text-center"></div>
+	</div>	
 	<div class="row">
 		<div class="col col-lg-9 ml-auto mr-auto list-auto-text-wrap text-center">
 			<p>Посмотреть список всех допустимых марок и моделей можно <a href="https://docs.google.com/spreadsheets/d/1XDzUIVBZxCrNIKkjFOc0eiKHNRLmPDaVJKzKcb1lu0E/edit#gid=407632270" target="_blank">здесь</a>.</p>
@@ -302,9 +313,12 @@
 	</div>
 	<div class="row">
 		<div class="col-12 col-lg-10 wrapper ml-auto mr-auto">
-			<p>Стандартный размер партнерской комиссии - <b>6%!</b></p>
-			<p>Это честные 6% без дополнительных «налогов» и прочих удержаний.</p>
-			<p class="action"><b>АКЦИЯ!</b> Для всех подключившихся к нам в 2017 году комиссия до конца текущего года составит всего <b>2%!</b></p> 
+			<p>Стандартный размер партнерской комиссии:</p>
+			<p>для Киева – <b>5%</b>.</p>
+			<p>для других городов – <b>6%</b>.</p>
+			<p>Это честная комиссия без дополнительных «налогов» и прочих удержаний.</p>
+			<p class="action"><b>АКЦИЯ для водителей из Киева!</b></p> 
+			<p class="action">В первую неделю после подключения комиссия всего <b>2,5%!</b></p> 
 			<p>Выплаты осуществляются <b>1 раз в неделю.</b></p>
 			<p>По вашему <b>желанию</b> мы будем платить вам <b>ежедневно</b>. При этом размер комиссии увеличится всего на 2%.</p>
 			<p>Если вы совершаете <b>более 400</b> поездок в месяц, размер комиссии будет определён <b>индивидуально</b>.</p>
